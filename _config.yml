@@ -83,12 +83,11 @@ author:
   name             : "Pablo Zdrojewski"
   avatar           : "fotopablo.png"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         : "Univdersidad de Buenos Aires"
+  location         : "Ciudad Autónoma de Buenos Aires"
+  employer         : #"Univdersidad de Buenos Aires"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.es/citations?user=Mhxv04kAAAAJ&hl=es"
   email            : "pablozd@filo.uba.ar"
-  academiaedu      : "https://uba.academia.edu/PabloZdrojewski" 
   researchgate     : "https://www.researchgate.net/profile/Pablo-Zdrojewski"
   uri              :
   bitbucket        :
@@ -97,10 +96,10 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/pablozd"
+  github           : "pablozd"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "polo_zd"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :

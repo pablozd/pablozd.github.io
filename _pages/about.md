@@ -10,9 +10,9 @@ redirect_from:
 
 Soy licenciado en Letras por la Universidad de Buenos Aires y magister en lingüística por la Universidad Nacional del Comahue. Desde 2009 me desempeño como docente en la Facultad de Filolosfía y Letras de la Universidad de Buenos Aires. También he sido JTP de la Universidad Nacional de General Sarmiento entre 2012 y 2020. En la actualidad, me desempeño como docente  en las siguientes asignaturas de la carrera de Letras de la Universidad de Buenos Aires: 
 
-1. Fonología y Morfología - (Jefe de Trabajos Prácticos)
-1. Gramática (Cátedras A y B) - Jefe de Trabajos Prácticos)
-1. Lingüística Chomskyana - Ayudante de Primera. 
+* Fonología y Morfología - (Jefe de Trabajos Prácticos)
+* Gramática (Cátedras A y B) - Jefe de Trabajos Prácticos)
+* Lingüística Chomskyana - Ayudante de Primera. 
 
 A data-driven personal website
 ======

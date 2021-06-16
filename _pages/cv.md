@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Lincenciado en Letras, Universidad de Buenos Aires (UBA), 2005
+* Magister en Lingüística, Universidad Nacional del Comahue (UNCOMA), 2008
+* Doctorado en Lingüística, Universidad de Buenos Aires, en curso
 
 Work experience
 ======

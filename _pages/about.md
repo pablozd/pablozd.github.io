@@ -3,9 +3,9 @@ permalink: /
 title: "Pablo Zdrojewski"
 excerpt: "Sobre mi"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+#redirect_from: 
+#  - /about/
+#  - /about.html
 ---
 
 Soy licenciado en Letras por la Universidad de Buenos Aires y magister en lingüística por la Universidad Nacional del Comahue. Desde 2009 me desempeño como docente en la Facultad de Filolosfía y Letras de la Universidad de Buenos Aires. También he sido JTP de la Universidad Nacional de General Sarmiento entre 2012 y 2020. En la actualidad, me desempeño como docente  en las siguientes asignaturas de la carrera de Letras de la Universidad de Buenos Aires: 

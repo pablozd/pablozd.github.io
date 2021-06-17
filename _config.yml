@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Pablo Zdrojewski"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Pablo Zdrojewski"
 description              : &description "personal description"
 url                      : https://pablozd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -91,7 +91,7 @@ author:
   googlescholar    : "https://scholar.google.es/citations?user=Mhxv04kAAAAJ&hl=es"
   email            : "pablozd@filo.uba.ar"
   researchgate     : "https://www.researchgate.net/profile/Pablo-Zdrojewski"
-  uri              :
+  uri              : "pablozd.github.io"
   bitbucket        :
   codepen          :
   dribbble         :

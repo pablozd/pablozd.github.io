@@ -13,8 +13,8 @@ Soy licenciado en Letras por la Universidad de Buenos Aires y magister en lingü
 * Fonología y Morfología - (Jefe de Trabajos Prácticos)
 * Gramática (Cátedras A y B) - Jefe de Trabajos Prácticos)
 * Lingüística Chomskyana - Ayudante de Primera. 
+* Sintaxis
 
-esto es nuevito
 
 A data-driven personal website
 ======

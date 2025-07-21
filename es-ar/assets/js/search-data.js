@@ -451,8 +451,8 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/es-ar/books/en-us/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-ix-egg-encuentro-de-gramática-generativa",
+          title: 'IX EGG - Encuentro de Gramática Generativa',
           description: "",
           section: "",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',

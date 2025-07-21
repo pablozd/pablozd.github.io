@@ -28,6 +28,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Doctor in Linguistics from the [Facultad de Filosofía y Letras, Universidad de Buenos Aires](https://letras.filo.uba.ar/), where I currently serve as Chief Teaching Assistant in Grammar and Phonology & Morphology. I also hold a position as Teaching Assistant in Formal Linguistics. My research focuses on theoretical linguistics, particularly generative grammar, Differential Object Marking (DOM), and pronominal doubling in Spanish varieties. I am a researcher [Instituto de Filología y Literaturas Hispánicas "Dr. Amado Alonso](https://iflh.institutos.filo.uba.ar/) in the same university. 
+I am a Doctor in Linguistics from the [Facultad de Filosofía y Letras, Universidad de Buenos Aires](https://letras.filo.uba.ar/), where I currently serve as Chief Teaching Assistant in Grammar and Phonology & Morphology. I also hold a position as Teaching Assistant in Formal Linguistics. My research focuses on theoretical linguistics, particularly generative grammar, Differential Object Marking (DOM), and pronominal doubling in Spanish varieties. I am a researcher [Instituto de Filología y Literaturas Hispánicas "Dr. Amado Alonso"](https://iflh.institutos.filo.uba.ar/) in the same university. 
 
 I am also a member of the [TALK group](https://talk-group.org/) at [SADAF](https://www.sadaf.org.ar/en/), which investigates questions of language meaning from both linguistic and philosophical perspectives.

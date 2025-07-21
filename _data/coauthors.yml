@@ -1,34 +1,25 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Saab":
+  - firstname: ["Andrés", "A.", "Andrés Saab"]
+    url: https://sites.google.com/view/andres-saab/p%C3%A1gina-principal/english
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Pujalte":
+  - firstname: ["Mercedes", "M.", "Mercedes Pujalte"]
+    url: https://www.conicet.gov.ar/new_scp/detalle.php?id=27384&datos_academicos=yes
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Di Tullio":
+  - firstname: ["Ángela", "Á.", "Ángela Di Tullio"]
+    url: https://es.wikipedia.org/wiki/%C3%81ngela_Di_Tullio
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Carranza":
+  - firstname: ["Fernando", "F. Carranza", "Fernando Carranza"]
+    url: https://fernando-carranza.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Trebisacce":
+  - firstname: ["Romina", "R.", "Romina Trebisacce"]
+    url: https://independent.academia.edu/RominaTrebisacce
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Muñoz-Pérez":
+  - firstname: ["Carlos", "Carlos Muñoz-Pérez"]
+    url: ttps://sites.google.com/site/munozperezc/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck

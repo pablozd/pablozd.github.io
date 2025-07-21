@@ -3,16 +3,16 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://letras.filo.uba.ar/'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: #<a href='https://letras.filo.uba.ar/'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Departamento de Letras</p>
-    <p>Facultad de Filosofía y Letras - UBA</p>
-    <p>Puan 470, Buenos Aires, Argentina</p>
+    <p>Departamento de Letras - FFyL</p>
+    <p>Universidad de Buenos Aires</p>
+    <p>Puan 470, BA, Argentina</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

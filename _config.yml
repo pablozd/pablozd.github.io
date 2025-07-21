@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Pablo
 middle_name: D.
 last_name: Zdrojewski
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: syntax, theoretical linguistics, Spanish grammar, linguistic variation # add your own keywords or leave empty
 icon: arbol.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://pablozd.github.io # the base hostname & protocol for your site
@@ -106,7 +106,7 @@ giscus:
   emit_metadata: 0
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: multi-language-al-folio # put your disqus shortname
+disqus_shortname: Pablo D. Zdrojewski # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.

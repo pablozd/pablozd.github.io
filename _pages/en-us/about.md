@@ -11,8 +11,8 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Departamento de Letras</p>
-    <p>Puan 470</p>
-    <p>Buenos Aires, Argentina</p>
+    <p>Facultad de Filosofía y Letras - UBA</p>
+    <p>Puan 470, Buenos Aires, Argentina</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

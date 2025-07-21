@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-08-06 09:00-18:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+IX EGG - [Encuentro de Gramática Generativa](https://encuentro-de-gramatica-generativa.github.io/)

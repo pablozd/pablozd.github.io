@@ -454,7 +454,7 @@ ninja.data = [{
             },},{id: "news-ix-egg-encuentro-de-gramática-generativa-august-6th-8th-2025-facultad-de-filosofía-y-letras-universidad-de-buenos-aires",
           title: 'IX EGG - Encuentro de Gramática Generativa - August 6th-8th, 2025 - Facultad...',
           description: "",
-          section: "News",},{id: "news-crash-course-herramientas-de-inteligencia-artificial-para-la-docencia-universitaria-universidad-de-la-rioja-with-fernando-carranza-and-carlos-muñoz-pérez",
+          section: "News",},{id: "news-crash-course-herramientas-de-inteligencia-artificial-para-la-docencia-universitaria-universidad-de-la-rioja-with-fernando-carranza-and-carlos-muñoz-pérez-from-10-13-2025-to-10-17-2025-and-from-10-20-2025-to-10-24-2025",
           title: 'Crash course: Herramientas de Inteligencia Artificial para la docencia universitaria.Universidad de La Rioja...',
           description: "",
           section: "News",},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",

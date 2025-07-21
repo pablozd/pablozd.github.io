@@ -7,7 +7,7 @@ first_name: Pablo
 middle_name: D.
 last_name: Zdrojewski
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: arbol.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://pablozd.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root

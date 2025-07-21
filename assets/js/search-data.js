@@ -451,16 +451,14 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/en-us/the_godfather/";
-            },},{id: "news-ix-egg-encuentro-de-gramática-generativa",
-          title: 'IX EGG - Encuentro de Gramática Generativa',
+            },},{id: "news-ix-egg-encuentro-de-gramática-generativa-august-6th-8th-2025-facultad-de-filosofía-y-letras-universidad-de-buenos-aires",
+          title: 'IX EGG - Encuentro de Gramática Generativa - August 6th-8th, 2025 - Facultad...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-crash-course-herramientas-de-inteligencia-artificial-para-la-docencia-universitaria-universidad-de-la-rioja-with-fernando-carranza-and-carlos-muñoz-pérez",
+          title: 'Crash course: Herramientas de Inteligencia Artificial para la docencia universitaria.Universidad de La Rioja...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/en-us/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
+          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',

@@ -507,14 +507,42 @@ ninja.data = [{
         title: '',
         section: '',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%70%61%62%6C%6F%7A%64@%66%69%6C%6F.%75%62%61.%61%72", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: '',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/pablozd", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: '',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-2462-5438", "_blank");
+        },
+      },{
+        id: 'social-osf',
+        title: 'Open Science Framework',
+        section: '',
+        handler: () => {
+          window.open("https://osf.io/osf.io/x6vk8/", "_blank");
+        },
+      },{
+        id: 'social-publons',
+        title: 'Publons',
+        section: '',
+        handler: () => {
+          window.open("https://publons.com/a/AFA-9128-2022/", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: '',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Pablo-Zdrojewski/", "_blank");
         },
       },{
         id: 'social-rss',
@@ -528,14 +556,35 @@ ninja.data = [{
         title: 'Google Scholar',
         section: '',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=Mhxv04kAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-scopus',
+        title: 'Scopus',
         section: '',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=56401914000", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: '',
+        handler: () => {
+          window.open("https://telegram.me/pablozd", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: '',
+        handler: () => {
+          window.open("https://twitter.com/zd_pablo", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: '',
+        handler: () => {
+          window.open("https://youtube.com/@https://www.youtube.com/@pablozdrojewski1492", "_blank");
         },
       },{
           id: 'lang-en-us',

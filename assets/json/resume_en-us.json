@@ -26,11 +26,8 @@
     {
       "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
       "position": "Chief Teaching Assistant",
-      // "url": "https://example.com",
       "startDate": "2018-10-01",
-      //"endDate": "1955-01-01",
-      "summary": "Teaching Spanish Grammar, Formal Lingüístics, Syntax and Phonology & Morphology at the Department of Letras in FFyL, UBA",
-      // "highlights": ["Relativity"]
+      "summary": "Teaching Spanish Grammar, Syntax and Phonology & Morphology at the Department of Letras in FFyL, UBA",   
     }
   ],
   "volunteer": [

@@ -4,8 +4,9 @@
     "label": "Linguist",
     "image": "",
     "email": "pablo.zd@gmail.com",
+    "phone": ,
     "url": "https://pablozd.github.io/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": " ",
     "location": {
       "address": "Puan 470",
       "postalCode": "C1406CQJ",
@@ -27,19 +28,19 @@
       "position": "Chief Teaching Assistant",
       "startDate": "2018-10-01",
       "summary": "Teaching Spanish Grammar, Syntax and Phonology & Morphology at the Department of Letras in FFyL, UBA",
-       "highlights":   ,
+       "highlights":  " " ,
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": " ",
+      "location": " ",
+      "position": " ",
+      "url": " ",
+      "startDate": " ",
+      "endDate": " ",
+      "summary": " ",
+      "highlights": [""]
     }
   ],
   "education": [

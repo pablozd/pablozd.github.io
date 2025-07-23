@@ -4,33 +4,33 @@
     "label": "Linguist",
     "image": "",
     "email": "pablo.zd@gmail.com",
-    "phone": "(912) 123-4567",
+    "email": "pzdrojewski@uba.ar",
     "url": "https://pablozd.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "Buenos Aires",
+      "address": "Puan 470",
+      "postalCode": "C1406CQJ",
+      "city": "Ciudad Autónoma de Buenos Aires",
       "countryCode": "AR",
-      "region": "Buenos Aires"
+      // "region": "Buenos Aires"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "X",
+        "username": "zd_pablo",
+        "url": "https://x.com/zd_pablo"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+      "position": "Chief Teaching Assistant",
+      // "url": "https://example.com",
+      "startDate": "2018-10-01",
+      //"endDate": "1955-01-01",
+      "summary": "Teaching Spanish Grammar, Formal Lingüístics, Syntax and Phonology & Morphology at the Department of Letras in FFyL, UBA",
+      // "highlights": ["Relativity"]
     }
   ],
   "volunteer": [

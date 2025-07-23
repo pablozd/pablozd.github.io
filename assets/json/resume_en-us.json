@@ -1,18 +1,20 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Pablo Damián Zdrojewski",
+    "label": "Linguist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://george-gca.github.io/multi-language-al-folio/",
+    "email": "pablo.zd@gmail.com",
+    "email": "pablozd@filo.uba.ar",
+    "email": "pdzdrojewski@filo.uba.ar",
+    // "phone": "(912) 123-4567",
+    "url": "https://pablozd.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Buenos Aires"
     },
     "profiles": [
       {

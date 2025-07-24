@@ -121,7 +121,7 @@
       "url": "https://www.filo.uba.ar/",
       "area": "Letras, Linguistics",
       "studyType": "PhD",
-      "endDate": "2023-05-30",
+      "startDate": "2023",
       "courses": ["Thesis: 'Caso /a/ caso. Una teoría para la Marcación Diferencial de Objetos del español'"]
     },
     {
@@ -129,8 +129,8 @@
       "location": "Rio Negro, Argentina",
       "url": "https://www.uncoma.edu.ar/",
       "area": "Linguistics",
-      "studyType": "Master's",
-      "endDate": "2008-9-23",
+      "studyType": "Master",
+      "startDate": "2008",
       "courses": ["Thesis: '¿Por quién doblan los clíticos? Restricciones morfosintácticas sobre la duplicación pronominal en el español rioplatense'"]
     },
     {
@@ -139,7 +139,7 @@
       "url": "https://www.filo.uba.ar/",
       "area": "Letras (Linguistic Orientation)",
       "studyType": "B.A. (Licenciatura)",
-      "startDate": "2005-12-15"
+      "startDate": "2005"
     }
   ],
   "publications": [

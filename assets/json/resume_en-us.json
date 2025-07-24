@@ -28,19 +28,124 @@
       "startDate": "2019-10-19",
       "summary": "Teaching Spanish grammar, syntax, and morphology at the undergraduate level."    
     }
+    {
+      "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+      "position": "Cheif Assistant Profesor",
+      "startDate": "2010-07-01",
+      "summary": "Teaching Spanish grammar, syntax, and morphology at the undergraduate level."    
+    }
+    {
+    "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+    "position": "Adjunct Professor (Interim)",
+    "startDate": "2024-03-01",
+    "endDate": "2024-07-31",
+    "summary": "Teaching graduate course on 'Temas de variación en español'"
+  },
+    {
+    "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+    "position": "Adjunct Professor (Interim)",
+    "startDate": "2022-03-01",
+    "endDate": "2022-07-31",
+    "summary": "Teaching graduate course on 'Gramáticas formales: formalismos e implementaciones'"
+  },
+  {
+    "name": "Instituto de Desarrollo Humano (IDH), Universidad Nacional de General Sarmiento",
+    "position": "D1 Professor (Regular)",
+    "startDate": "2012-03-01",
+    "endDate": "2020-03-01",
+    "summary": "Teaching Language, Communication and Culture I, Linguistic Studies, and Academic Writing Workshop across multiple undergraduate programs"
+  },
+  {
+    "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+    "position": "Teaching Assistant (Interim)",
+    "startDate": "2011-01-01",
+    "endDate": "2011-12-31",
+    "summary": "Teaching Grammar in the Literature program, Cátedra A"
+  },
+  {
+    "name": "Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche",
+    "position": "Chief Teaching Assistant (Contract)",
+    "startDate": "2016-01-01",
+    "endDate": "2016-12-31",
+    "summary": "Teaching Reading and Writing Workshop / Language Workshop"
+  },
+  {
+    "name": "Instituto Nacional de Formación Docente",
+    "position": "Tutor (Contract)",
+    "startDate": "2016-03-01",
+    "endDate": "2017-07-31",
+    "summary": "Language Module instruction in Pedagogical Strengthening Programs"
+  },
+  {
+    "name": "Departamento de Letras, Universidad de Buenos Aires",
+    "position": "Adjunct Professor (Interim)",
+    "startDate": "2015-08-01",
+    "endDate": "2015-12-31",
+    "summary": "Teaching graduate seminar on 'Aspects of syntactic variation from a generative grammar perspective'"
+  },
+  {
+    "name": "Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)",
+    "position": "Professor (Contract)",
+    "startDate": "2012-01-01",
+    "endDate": "2012-12-31",
+    "summary": "Teaching General Linguistics in the Literature degree program"
+  },
+  {
+    "name": "Escuela Superior de Idiomas, Universidad Nacional del Comahue",
+    "position": "Teaching Assistant (Interim)",
+    "startDate": "2007-01-01",
+    "endDate": "2010-12-31",
+    "summary": "Teaching English-Spanish Contrastive Analysis I for English Language Teacher Training and Translation programs"
+  },
+  {
+    "name": "Escuela Superior de Idiomas, Universidad Nacional del Comahue",
+    "position": "Teaching Assistant (Interim)",
+    "startDate": "2007-01-01",
+    "endDate": "2010-12-31",
+    "summary": "Teaching English-Spanish Contrastive Analysis II for English Language Teacher Training and Translation programs"
+  },
+  {
+    "name": "Facultad de Humanidades, Universidad Nacional del Comahue",
+    "position": "Teaching Assistant (Interim)",
+    "startDate": "2005-01-01",
+    "endDate": "2005-12-31",
+    "summary": "Teaching Grammar 1 in the Literature program"
+  }
   ],
   "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
+   {
+    "institution": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+    "location": "Buenos Aires, Argentina",
+    "url": "https://www.filo.uba.ar/",
+    "area": "Letras, Linguistics",
+    "studyType": "PhD",
+    "startDate": null,
+    "endDate": "2023-05-30",
+    "score": null,
+    "courses": ["Thesis: 'Caso /a/ caso. Una teoría para la Marcación Diferencial de Objetos del español'"]
+  },
+  {
+    "institution": "Escuela Superior de Idiomas, Universidad Nacional del Comahue",
+    "location": "Neuquén, Argentina",
+    "url": "https://www.uncoma.edu.ar/",
+    "area": "Linguistics",
+    "studyType": "Master's",
+    "startDate": null,
+    "endDate": "2008-9-23",
+    "score": null, 
+    "courses": ["Thesis: '¿Por quién doblan los clíticos? Restricciones morfosintácticas sobre la duplicación pronominal en el español rioplatense'"]
+  },
+  {
+    "institution": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+    "location": "Buenos Aires, Argentina", 
+    "url": "https://www.filo.uba.ar/",
+    "area": "Letras (Linguistic Orientation)",
+    "studyType": "B.A. (Licenciatura)",
+    "startDate": null,
+    "endDate": "2005-12-15",
+    "score": null,
+    "courses": [],
+  }
   ],
   "publications": [
     {

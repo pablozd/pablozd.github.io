@@ -142,25 +142,118 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Animacidad y topicalidad en los objetos directos del español rioplatense y el portugués brasilero",
+      "authors": ["Pablo Zdrojewski"],
+      "publisher": "Problemas de la gramática del español (Discutir el Lenguaje, FaHCE-UNLP)",
+      "releaseDate": "2024"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Passivization and Pseudo-Relatives with Perception Verbs in Spanish",
+      "authors": ["Fernando Carranza", "Pablo Zdrojewski"],
+      "publisher": "Isogloss. Open Journal of Romance Linguistics",
+      "releaseDate": "2023"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Pseudorrelativas y obviación en español",
+      "authors": ["Fernando Carranza", "Pablo Zdrojewski"],
+      "publisher": "Cuadernos de la ALFAL",
+      "releaseDate": "2023"
+    },
+    {
+      "name": "The grammaticalization of igual in Argentinean Spanish",
+      "authors": ["Ángela Di Tullio", "Mercedes Pujalte", "Pablo Zdrojewski"],
+      "publisher": "Formal Approach to Languages of South America (Springer)",
+      "releaseDate": "2023"
+    },
+    {
+      "name": "El marcado diferencial de objeto rioplatense en perspectiva diacrónica",
+      "authors": ["Pablo Zdrojewski"],
+      "publisher": "La historia del español en la Argentina: temas gramaticales (Editorial UNGS)",
+      "releaseDate": "2023"
+    },
+    {
+      "name": "On the non-existence of asymmetric DOM in Spanish",
+      "authors": ["Andrés Saab", "Pablo Zdrojewski"],
+      "publisher": "Linguistic Inquiry",
+      "releaseDate": "2021",
+      "url": "https://doi.org/10.1162/ling_a_00389"
+    },
+    {
+      "name": "La gramaticalización de objetos inanimados en dos variedades del español de la Romania Nova",
+      "authors": ["Pablo Zdrojewski"],
+      "publisher": "Cuadernos de la ALFAL",
+      "releaseDate": "2020"
+    },
+    {
+      "name": "Dialectal variation in VOS word order in Spanish",
+      "authors": ["Pablo Zdrojewski", "Liliana Sánchez"],
+      "publisher": "Exploring Interfaces: Lexicon, syntax, semantics and sound (Cambridge University Press)",
+      "releaseDate": "2019"
+    },
+    {
+      "name": "Clitic Doubling in a Doubling World. The case of Argentinean Spanish reconsidered",
+      "authors": ["Ángela Di Tullio", "Andrés Saab", "Pablo Zdrojewski"],
+      "publisher": "Syntactic Variation in Spanish (Oxford University Press)",
+      "releaseDate": "2019"
+    },
+    {
+      "name": "Marcación Diferencial de Objetos inanimados",
+      "authors": ["Pablo Zdrojewski"],
+      "publisher": "Palabras como lluvia copiosa: veinte visitas a la gramática del español inspiradas por Ángela Di Tullio (Iberoamericana/Vervuert)",
+      "releaseDate": "2018"
+    },
+    {
+      "name": "Capítulo 2",
+      "authors": ["Mercedes García", "Santiago Nothstein", "Alejandra Rodríguez Ballester", "Elena Valente", "Pablo Zdrojewski"],
+      "publisher": "Leer y escribir en el ingreso a la universidad (Universidad Nacional de General Sarmiento)",
+      "releaseDate": "2015"
+    },
+    {
+      "name": "Variation in accusative clitic doubling across three Spanish dialects",
+      "authors": ["Pablo Zdrojewski", "Liliana Sánchez"],
+      "publisher": "Lingua",
+      "releaseDate": "2014"
+    },
+    {
+      "name": "Restricciones semánticas y pragmáticas al doblado de clíticos en el español de Buenos Aires y de Lima",
+      "authors": ["Liliana Sánchez", "Pablo Zdrojewski"],
+      "publisher": "Lingüística (revista de la Alfal)",
+      "releaseDate": "2013"
+    },
+    {
+      "name": "¿Por quién doblan los clíticos",
+      "authors": ["Pablo Zdrojewski"],
+      "publisher": "Respectivas teóricas y experimentales sobre el español de Argentina (Iberoamericana/Vervuert)",
+      "releaseDate": "2013"
+    },
+    {
+      "name": "Procesos de transitivización en el español del Río de la Plata",
+      "authors": ["Mercedes Pujalte", "Pablo Zdrojewski"],
+      "publisher": "El español de Argentina: estudios gramaticales (EUDEBA)",
+      "releaseDate": "2013"
+    },
+    {
+      "name": "Dislocación y doblado pronominal en el español del Río de la Plata",
+      "authors": ["Andrés Saab", "Pablo Zdrojewski"],
+      "publisher": "El español de Argentina: estudios gramaticales (EUDEBA)",
+      "releaseDate": "2013"
+    },
+    {
+      "name": "Anti-repair effects under ellipsis: Diagnosing (post-)syntactic clitics Spanish",
+      "authors": ["Andrés Saab", "Pablo Zdrojewski"],
+      "publisher": "Romance Languages and Linguistic Theory 4 (John Benjamins)",
+      "releaseDate": "2012"
+    },
+    {
+      "name": "Notas sobre la duplicación pronominal en el español rioplatense: asimetrías entre objetos humanos y no humanos",
+      "authors": ["Ángela Di Tullio", "Pablo Zdrojewski"],
+      "publisher": "Filología",
+      "releaseDate": "2008"
+    },
+    {
+      "name": "Objetos. Marcado Diferencial de Objeto y doblado pronominal",
+      "authors": ["Pablo Zdrojewski"],
+      "publisher": "Variación sintáctica en español (AKAL)"
     }
   ],
   "languages": [

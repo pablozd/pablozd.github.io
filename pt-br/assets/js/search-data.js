@@ -69,6 +69,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pt-br/people/";
           },
+        },{id: "nav-talks-and-conferences",
+          title: "talks and conferences",
+          description: "",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/talks/";
+          },
         },{id: "dropdown-publicações",
               title: "publicações",
               description: "",

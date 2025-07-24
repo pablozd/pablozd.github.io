@@ -50,21 +50,21 @@
   },
   {
     "name": "Instituto de Desarrollo Humano (IDH), Universidad Nacional de General Sarmiento",
-    "position": "D1 Professor (Regular)",
+    "position": "Cheif Assistant Profesor",
     "startDate": "2012-03-01",
     "endDate": "2020-03-01",
     "summary": "Teaching Language, Communication and Culture I, Linguistic Studies, and Academic Writing Workshop across multiple undergraduate programs"
   },
   {
     "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
-    "position": "Teaching Assistant (Interim)",
+    "position": "Assistant Professor (Interim)",
     "startDate": "2011-01-01",
     "endDate": "2011-12-31",
     "summary": "Teaching Grammar in the Literature program, Cátedra A"
   },
   {
     "name": "Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche",
-    "position": "Chief Teaching Assistant (Contract)",
+    "position": "Chief Assistant Professor (Contract)",
     "startDate": "2016-01-01",
     "endDate": "2016-12-31",
     "summary": "Teaching Reading and Writing Workshop / Language Workshop"
@@ -92,21 +92,21 @@
   },
   {
     "name": "Escuela Superior de Idiomas, Universidad Nacional del Comahue",
-    "position": "Teaching Assistant (Interim)",
+    "position": "Assistant Professor (Interim)",
     "startDate": "2007-01-01",
     "endDate": "2010-12-31",
     "summary": "Teaching English-Spanish Contrastive Analysis I for English Language Teacher Training and Translation programs"
   },
   {
     "name": "Escuela Superior de Idiomas, Universidad Nacional del Comahue",
-    "position": "Teaching Assistant (Interim)",
+    "position": "Assistant Professor (Interim)",
     "startDate": "2007-01-01",
     "endDate": "2010-12-31",
     "summary": "Teaching English-Spanish Contrastive Analysis II for English Language Teacher Training and Translation programs"
   },
   {
     "name": "Facultad de Humanidades, Universidad Nacional del Comahue",
-    "position": "Teaching Assistant (Interim)",
+    "position": "Assistant Professor (Interim)",
     "startDate": "2005-01-01",
     "endDate": "2005-12-31",
     "summary": "Teaching Grammar 1 in the Literature program"
@@ -119,9 +119,7 @@
     "url": "https://www.filo.uba.ar/",
     "area": "Letras, Linguistics",
     "studyType": "PhD",
-    "startDate": null,
     "endDate": "2023-05-30",
-    "score": null,
     "courses": ["Thesis: 'Caso /a/ caso. Una teoría para la Marcación Diferencial de Objetos del español'"]
   },
   {
@@ -130,9 +128,9 @@
     "url": "https://www.uncoma.edu.ar/",
     "area": "Linguistics",
     "studyType": "Master's",
-    "startDate": null,
+    "startDate": ,
     "endDate": "2008-9-23",
-    "score": null, 
+    "score": , 
     "courses": ["Thesis: '¿Por quién doblan los clíticos? Restricciones morfosintácticas sobre la duplicación pronominal en el español rioplatense'"]
   },
   {

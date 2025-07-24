@@ -597,13 +597,6 @@ ninja.data = [{
           window.open("https://youtube.com/@https://www.youtube.com/@pablozdrojewski1492", "_blank");
         },
       },{
-          id: 'lang-es-ar',
-          title: 'es-ar',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/es-ar" + updatedUrl;
-          },
-        },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',

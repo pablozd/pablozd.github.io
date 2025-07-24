@@ -251,11 +251,14 @@
       "authors": ["Ángela Di Tullio", "Pablo Zdrojewski"],
       "publisher": "Filología",
       "releaseDate": "2008"
-    },
+    }
+    ],
+  "work in progress": [
     {
       "name": "Objetos. Marcado Diferencial de Objeto y doblado pronominal",
       "authors": ["Pablo Zdrojewski"],
-      "releaseDate": "unpublished"
+      "releaseDate": "unpublished",
+      "summary": "unpublished"
     }
   ],
   "languages": [

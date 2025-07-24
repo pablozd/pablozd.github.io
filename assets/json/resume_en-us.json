@@ -5,7 +5,6 @@
     "image": "",
     "email": "pablo.zd@gmail.com",
     "url": "https://pablozd.github.io/",
-    "summary": " ",
     "location": {
       "address": "Puan 470",
       "postalCode": "C1406CQJ",
@@ -253,7 +252,7 @@
       "releaseDate": "2008"
     }
     ],
-  "work in progress": [
+  "in progress": [
     {
       "name": "Objetos. Marcado Diferencial de Objeto y doblado pronominal",
       "authors": ["Pablo Zdrojewski"],

@@ -1,6 +1,6 @@
 ---
-page_id: profiles
-layout: profiles
+page_id: talks
+layout: tal
 permalink: /people/
 title: membros
 description: membros do grupo de pesquisa ou laboratório

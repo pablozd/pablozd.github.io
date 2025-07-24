@@ -90,6 +90,27 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/es-ar/blog/";
               },
+            },{id: "dropdown-publicações",
+              title: "publicações",
+              description: "",
+              section: "",
+              handler: () => {
+                window.location.href = "/es-ar/publications/";
+              },
+            },{id: "dropdown-projetos",
+              title: "projetos",
+              description: "",
+              section: "",
+              handler: () => {
+                window.location.href = "/es-ar/projects/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "",
+              handler: () => {
+                window.location.href = "/es-ar/blog/";
+              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -458,6 +479,19 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/es-ar/books/en-us/the_godfather/";
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/es-ar/books/pt-br/the_godfather/";
+            },},{id: "news-um-anúncio-simples-em-uma-linha",
+          title: 'Um anúncio simples em uma linha.',
+          description: "",
+          section: "",},{id: "news-um-anúncio-longo-com-detalhes",
+          title: 'Um anúncio longo com detalhes',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/es-ar/news/pt-br/announcement_2/";
             },},{id: "news-ix-egg-encuentro-de-gramática-generativa-august-6th-8th-2025-facultad-de-filosofía-y-letras-universidad-de-buenos-aires",
           title: 'IX EGG - Encuentro de Gramática Generativa - August 6th-8th, 2025 - Facultad...',
           description: "",
@@ -599,20 +633,6 @@ ninja.data = [{
           section: '',
           handler: () => {
             window.location.href = "" + updatedUrl;
-          },
-        },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
-          section: '',
-          handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: '',
-          handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
           },
         },{
       id: 'light-theme',

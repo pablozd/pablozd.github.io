@@ -1,9 +1,9 @@
 ---
-page_id: profiles
-layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+page_id: talks
+layout: talks
+permalink: /talks/
+title: talks and conferences
+description: 
 nav: true
 nav_order: 7
 

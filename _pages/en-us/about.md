@@ -8,7 +8,7 @@ subtitle: #<a href='https://letras.filo.uba.ar/'>Affiliations</a>. Address. Cont
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Departamento de Letras - FFyL</p>
     <p>Universidad de Buenos Aires</p>

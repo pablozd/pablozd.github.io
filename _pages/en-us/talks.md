@@ -1,5 +1,5 @@
 ---
-page_id: talks
+page_id: publications
 layout: page
 permalink: /talks/
 title: talks and conferences

@@ -1,8 +1,8 @@
 ---
-page_id: publications
+page_id: talks
 layout: page
 permalink: /talks/
-title: talks and conferences
+title: talks 
 description: 
 nav: true
 nav_order: 7
@@ -15,7 +15,7 @@ nav_order: 7
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="talks">
 
 {% talks %}
 

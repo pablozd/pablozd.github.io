@@ -1,6 +1,6 @@
 ---
 page_id: talks
-layout: bib
+layout: page
 permalink: /talks/
 title: talks and conferences
 description: 

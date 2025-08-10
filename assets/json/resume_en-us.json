@@ -19,12 +19,12 @@
         }]
     },
     "work": [{
-            "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
-            "position": "Cheif Assistant Profesor",
-            "startDate": "2019-10-19",
-            "summary": "Teaching Spanish grammar, syntax, and morphology at the undergraduate level."
-        },
-        {
+        "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+        "position": "Cheif Assistant Profesor",
+        "startDate": "2019-10-19",
+        "summary": "Teaching Spanish grammar, syntax, and morphology at the undergraduate level."
+    }],
+    "work 2": [{
             "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
             "position": "Assistant Profesor",
             "startDate": "2010-07-01",

@@ -1,0 +1,75 @@
+- title: Información general
+  type: map
+  contents:
+    - name: Nombre completo
+      value: Pablo Damián Zdrojewski
+    - name: Fecha de nacimiento
+      value: 2 de septiembre de 1976
+    - name: Idiomas
+      value: Español, Inglés
+
+- title: Educación
+  type: time_table
+  contents:
+    - title: Doctorado
+      institution: Facultad de Filosofía y Letras, Universidad de Buenos Aires, Buenos Aires, Argentina
+      year: 2023
+      description:
+        - "Tesis: Caso /a/ caso. Una teoría para la Marcación Diferencial de Objetos del español"
+    - title: Magíster
+      institution: Escuela superior de idiomas, Universidad Nacional del Comahue, Río Negro, Argentina
+      year: 2008
+      description:
+        - "Tesis: ¿Por quién doblan los clíticos? Restricciones morfosintácticas sobre la duplicación pronominal en el español rioplatense"
+    - title: Licenciado en Letras
+      institution: Facultad de Filosofía y Letras, Universidad de Buenos Aires, Buenos Aires, Argentina
+      year: 2005
+
+- title: Docencia
+  type: time_table
+  contents:
+    - title: Profesor Adjunto
+      department: Gramática española
+      institution: Departamento de Letras, Facultad de Filosofía, Historia, Letras y Estudios Orientales, Universidad del Salvador
+      year: 2025-presente
+    - title: Jefe de Trabajos Prácticos
+      department: Lingüística Chomskyana
+      institution: Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires
+      year: 2025-presente
+    - title: Jefe de Trabajos Prácticos
+      department:
+        - Gramática (Cátedra B)
+        - Fonología y Morfología
+      institution: Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires
+      year: 2019-presente
+
+- title: Proyectos de código abierto
+  type: time_table
+  contents:
+    - title: <a href="https://arborgram.pablozd.ar">arborgram</a>
+      description: Generador interactivo de árboles sintácticos.
+
+    - title: <a href="https://sintaxgram.pablozd.ar">sintaxgram</a>
+      description: Marcado sintáctico interactivo sobre texto corrido.
+
+    - title: <a href="https://sintaxismark.pablozd.ar">sintaxismark</a>
+      description: Paquete LaTeX para marcado sintáctico sobre texto corrido, sin árboles.
+
+- title: Intereses académicos
+  type: nested_list
+  contents:
+    - title: Gramática generativa
+      items:
+        - Marcación Diferencial de Objetos
+        - Duplicación pronominal
+        - (In)definitud
+        - Estructura de la información
+    - title: Variación lingüística
+      items:
+        - Variedades del español rioplatense
+        - Sintaxis comparada
+
+- title: Otros intereses
+  type: list
+  contents:
+    - <u>Hobbies:</u> in-line skating, Brazilian Jiu Jitsu, kickboxing.

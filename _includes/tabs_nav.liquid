@@ -1,0 +1,31 @@
+<div class="tabs-nav">
+  {% for tab in include.tabs %}
+    {% assign parts = tab | split: "|" %}
+    {% assign tab_id = parts[0] %}
+    {% if parts[1] %}
+      {% assign tab_label = parts[1] %}
+    {% else %}
+      {% assign tab_label = tab | capitalize %}
+    {% endif %}
+    <a href="#" class="tab-link{% if forloop.first %} active{% endif %}" data-tab="{{ tab_id }}">{{ tab_label }}</a>
+  {% endfor %}
+</div>
+
+<script>
+  document.querySelectorAll('.tabs-nav .tab-link').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelectorAll('.tabs-nav .tab-link').forEach(function (l) {
+        l.classList.remove('active');
+      });
+      document.querySelectorAll('.tab-pane').forEach(function (p) {
+        p.classList.remove('active');
+      });
+      this.classList.add('active');
+      var pane = document.getElementById('tab-' + this.dataset.tab);
+      if (pane) {
+        pane.classList.add('active');
+      }
+    });
+  });
+</script>

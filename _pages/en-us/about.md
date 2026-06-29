@@ -3,18 +3,18 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: #<a href='https://letras.filo.uba.ar/'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  role: Linguist · FFyL, Universidad de Buenos Aires
   more_info: >
-    <p>Departamento de Letras - FFyL</p>
-    <p>Universidad de Buenos Aires</p>
+    <p>Dept. of Letras</p>
+    <p>FFyL &middot; UBA</p>
     <p>Puan 470, BA, Argentina</p>
 
+banner:
+  image: banner.png
 selected_papers: true # includes a list of papers marked as "selected={true}"
+tools: true # includes the web apps section (sintaxgram, arborgram)
 social: true # includes social icons at the bottom of the page
 
 announcements:

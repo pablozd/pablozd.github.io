@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2026-07-18
+inline: true
+related_posts: false
+---
+
+Nueva edición del CUEX "Integración crítica y práctica de la Inteligencia Artificial Generativa en la enseñanza de humanidades y ciencias sociales" (junto con Fernando Carranza, Ángel Maldonado y Mariano Vilar), FFyL-UBA. Comienza el 18 de julio, modalidad virtual.

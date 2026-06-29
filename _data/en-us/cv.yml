@@ -4,7 +4,7 @@
     - name: Full Name
       value: Pablo Damián Zdrojewski
     - name: Date of Birth
-      value: 2nd september 1976
+      value: September 2, 1976
     - name: Languages
       value: Spanish, English
 
@@ -15,89 +15,62 @@
       institution: Facultad de Filosofía y Letras, Universidad de Buenos Aires, Buenos Aires, Argentina
       year: 2023
       description:
-        - Thesis: Caso /a/ caso. Una teoría para la Marcación Diferencial de Objetos del español 
+        - "Thesis: Caso /a/ caso. Una teoría para la Marcación Diferencial de Objetos del español"
     - title: Magister
-      institution: Escuela superio de idiomas, Universidad Nacional el Comahue, Rio Negro, Argentina
+      institution: Escuela superior de idiomas, Universidad Nacional del Comahue, Río Negro, Argentina
       year: 2008
       description:
-        - Thesis: ¿Por quién doblan los clíticos? Restricciones morfosintácticas sobre la duplicación pronominal en el español rioplatense
-        - Description 2.
-    - title: Bacherlor of Arts (Licendiado en Letras)
+        - "Thesis: ¿Por quién doblan los clíticos? Restricciones morfosintácticas sobre la duplicación pronominal en el español rioplatense"
+    - title: Bachelor of Arts (Licenciado en Letras)
       institution: Facultad de Filosofía y Letras, Universidad de Buenos Aires, Buenos Aires, Argentina
       year: 2005
    
 
-- title: Work experience
+- title: Teaching
   type: time_table
   contents:
-    - title: Jefe de trabajos Prácticos
-      subject: Gramática
+    - title: Adjunct Professor
+      department: Spanish Grammar
+      institution: Departamento de Letras, Facultad de Filosofía, Historia, Letras y Estudios Orientales, Universidad del Salvador
+      year: 2025-present
+    - title: Chief Teaching Assistant
+      department: Chomskyan Linguistics
       institution: Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires
-      year: 2019
-      #description:
-       # - Description 1.
-        #- Description 2.
-        #- title: Description 3.
-        #  contents:
-        #    - Sub-description 1.
-        #    - Sub-description 2.
-    - title: Jefe de trabajos Prácticos 
-      subject: Fonología y Morfología
+      year: 2025-present
+    - title: Chief Teaching Assistant
+      department:
+        - Grammar (Chair B)
+        - Phonology and Morphology
       institution: Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires
-      year: 2019      
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-
-    - title: Ayudante de Primera (Teaching Assistant)
-      subject: Lingüística Chosmkyana       
-      institution: Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires
-      year: 2010
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+      year: 2019-present
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
+    - title: <a href="https://arborgram.pablozd.ar">arborgram</a>
+      description: Interactive syntactic tree generator.
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://sintaxgram.pablozd.ar">sintaxgram</a>
+      description: Interactive syntactic annotation over running text.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://sintaxismark.pablozd.ar">sintaxismark</a>
+      description: LaTeX package for syntactic annotation over running text, without trees.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Generative grammar
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Differential Object Marking
+        - Pronominal doubling
+        - (In)definiteness
+        - Information Structure
+    - title: Linguistic variation
       items:
-        - Description 1.
-        - Description 2.
+        - Rioplatense Spanish varieties
+        - Comparative syntax
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> in-line skating, Brazilian Jiu Jitsu, kickboxing.

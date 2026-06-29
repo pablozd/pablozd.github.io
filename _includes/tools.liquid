@@ -1,0 +1,37 @@
+<div class="tools-section">
+  {% unless include.section == 'latex' %}
+    <div class="tools-subtitle">{{ site.data[site.active_lang].strings.tools.web_apps }}</div>
+    <div class="tools-grid">
+      {% for tool in site.data.tools.apps %}
+        <div class="tool-card">
+          <div class="tool-tag tag-app">{{ tool.tag }}</div>
+          <h4>{{ tool.title }}</h4>
+          <p>{{ tool.description[site.active_lang] }}</p>
+          <div class="tool-actions">
+            {% for action in tool.actions %}
+              <a href="{{ action.url }}" class="btn btn-{{ action.style }}" target="_blank">{{ action.label[site.active_lang] }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endunless %}
+
+  {% unless include.section == 'apps' %}
+    <div class="tools-subtitle">{{ site.data[site.active_lang].strings.tools.latex_packages }}</div>
+    <div class="tools-grid">
+      {% for tool in site.data.tools.latex %}
+        <div class="tool-card">
+          <div class="tool-tag tag-pkg">{{ tool.tag }}</div>
+          <h4>{{ tool.title }}</h4>
+          <p>{{ tool.description[site.active_lang] }}</p>
+          <div class="tool-actions">
+            {% for action in tool.actions %}
+              <a href="{{ action.url }}" class="btn btn-{{ action.style }}" target="_blank">{{ action.label[site.active_lang] }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endunless %}
+</div>

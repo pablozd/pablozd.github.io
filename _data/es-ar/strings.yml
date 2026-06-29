@@ -1,0 +1,173 @@
+archive:
+  prefix: un archivo de
+  category_suffix: en esta categoría
+  tag_suffix: con esta etiqueta
+  year_suffix: de este año
+bibliography:
+  abstract: Resumen
+  awarded: Premiado
+  blog: Blog
+  book_prefix: En
+  code: Código
+  last_author_prefix: y
+  poster: Póster
+  slides: Diapositivas
+  supp: Material adicional
+  video: Video
+  website: Sitio web
+blog:
+  navigation_title: blog
+categories:
+  fun: ocio
+  work: trabajo
+citation:
+  bibtex: "o como entrada BibTeX:"
+  introduction: "Si te resultó útil, podés citarlo así:"
+collections:
+  books: libros
+  posts: entradas
+contact_note: También podés agregar una pequeña nota sobre cuál es la mejor forma de contactarte.
+cv:
+  address: Dirección
+  area: Área
+  awarder: Otorgado por
+  awards: Premios
+  basics: Información general
+  certificates: Certificados
+  city: Ciudad
+  countryCode: Código de país
+  courses: Cursos
+  date: Fecha
+  education: Educación
+  email: Correo electrónico
+  endDate: Fecha de finalización
+  fluency: Fluidez
+  highlights: Destacados
+  image: Imagen
+  institution: Institución
+  interests: Intereses
+  issuer: Emisor
+  keywords: Palabras clave
+  label: Etiqueta
+  language: Idioma
+  languages: Idiomas
+  level: Nivel
+  location: Ubicación
+  name: Nombre
+  network: Red
+  organization: Organización
+  phone: Teléfono
+  position: Cargo
+  postalCode: Código postal
+  present: Presente
+  profiles: Perfiles
+  projects: Proyectos
+  publications: Publicaciones
+  publisher: Editorial
+  reference: Referencia
+  references: Referencias
+  region: Región
+  releaseDate: Fecha de lanzamiento
+  score: Puntaje
+  skills: Habilidades
+  startDate: Fecha de inicio
+  studyType: Tipo de estudio
+  summary: Resumen
+  table_of_contents: Tabla de contenidos
+  title: Título
+  url: Url
+  username: Nombre de usuario
+  volunteer: Voluntariado
+  work: Trabajo
+footer:
+  copyright: Copyright
+  last_updated: "Última actualización:"
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Sitio de <a href="https://pablozd.ar" target="_blank">pablozd.ar</a> · Buenos Aires.
+latest_posts: últimas entradas
+months:
+  long:
+    january: enero
+    february: febrero
+    march: marzo
+    april: abril
+    may: mayo
+    june: junio
+    july: julio
+    august: agosto
+    september: septiembre
+    october: octubre
+    november: noviembre
+    december: diciembre
+  short:
+    january: ene
+    february: feb
+    march: mar
+    april: abr
+    may: may
+    june: jun
+    july: jul
+    august: ago
+    september: sep
+    october: oct
+    november: nov
+    december: dic
+news: noticias
+newsletter:
+  back: Volver
+  error: "¡Algo salió mal! Probá de nuevo."
+  subscribe: suscribirme
+  subscribed: "Te suscribiste correctamente al newsletter."
+  subscribe_to_receive: "Suscribite para recibir novedades:"
+  too_many_signups: "Demasiados registros, probá de nuevo en un rato"
+  wait: "Esperá un momento..."
+no_news: Todavía no hay noticias...
+no_posts: "Todavía no hay entradas..."
+pagination:
+  page: página
+post:
+  created_in: Creado en
+  created_by: por
+  last_updated: última actualización en
+references: Referencias
+related_posts:
+  description: "Estos son otros artículos que podrían interesarte:"
+  title: ¿Te gustó este artículo?
+search:
+  dark_theme:
+    description: Cambiar el tema del sitio a oscuro
+    title: Cambiar a tema oscuro
+  dropdown: Desplegable
+  email: Enviar un correo
+  footer:
+    close: para cerrar
+    navigate: para navegar
+    parent: ir al nivel anterior
+    select: para seleccionar
+  languages: Idiomas
+  light_theme:
+    description: Cambiar el tema del sitio a claro
+    title: Cambiar a tema claro
+  navigation: Menú de navegación
+  news: Noticias
+  placeholder: Escribí para empezar a buscar
+  posts: Entradas
+  projects: Proyectos
+  socials: Redes
+  system_theme:
+    description: Usar el tema del sistema
+    title: Usar tema del sistema
+  theme: Tema
+cursos:
+  materials: Materiales
+  materials_soon: Materiales próximamente
+presentaciones:
+  conferencias: conferencias
+  ponencias: ponencias
+  colaboracion: ponencias en colaboración
+  posters: posters
+selected_publications: publicaciones seleccionadas
+tools:
+  web_apps: aplicaciones web
+  latex_packages: paquetes LaTeX
+site_description: Lingüista. Gramática generativa, Marcación Diferencial de Objetos y duplicación pronominal en variedades del español.

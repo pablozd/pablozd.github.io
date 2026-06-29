@@ -1,0 +1,20 @@
+<div class="tools-grid">
+  {% for curso in site.data.cursos %}
+    <div class="tool-card">
+      <div class="tool-tag tag-pkg">{{ curso.tag }}</div>
+      <h4>{{ curso.title[site.active_lang] }}</h4>
+      <p>
+        {{ curso.institution }}<br>
+        {{ curso.date[site.active_lang] }}<br>
+        {{ curso.collaborators }}
+      </p>
+      <div class="tool-actions">
+        {% if curso.materials %}
+          <a href="{{ curso.materials }}" class="btn btn-primary" target="_blank">{{ site.data[site.active_lang].strings.cursos.materials }}</a>
+        {% else %}
+          <span class="btn btn-outline disabled">{{ site.data[site.active_lang].strings.cursos.materials_soon }}</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

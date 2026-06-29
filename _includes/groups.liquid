@@ -1,0 +1,24 @@
+<div class="row row-cols-1 row-cols-md-3">
+  {% for group in site.data.groups %}
+    <div class="col">
+      <a href="{{ group.url }}" target="_blank">
+        <div class="card h-100 hoverable">
+          {% if group.img %}
+            {%
+              include figure.liquid
+              loading="eager"
+              path=group.img
+              sizes = "250px"
+              alt="group thumbnail"
+              class="card-img-top"
+            %}
+          {% endif %}
+          <div class="card-body">
+            <h2 class="card-title">{{ group.title }}</h2>
+            <p class="card-text">{{ group.description[site.active_lang] }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

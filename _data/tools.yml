@@ -1,0 +1,68 @@
+apps:
+  - title: sintaxgram
+    tag: app web
+    description:
+      es-ar: Marcado sintáctico interactivo sobre texto corrido.
+      en-us: Interactive syntactic annotation over running text.
+    actions:
+      - label:
+          es-ar: Abrir
+          en-us: Open
+        url: https://sintaxgram.pablozd.ar
+        style: primary
+  - title: arborgram
+    tag: app web
+    description:
+      es-ar: Generador interactivo de árboles sintácticos.
+      en-us: Interactive syntactic tree generator.
+    actions:
+      - label:
+          es-ar: Abrir
+          en-us: Open
+        url: https://arborgram.pablozd.ar
+        style: primary
+
+latex:
+  - title: sintaxismark
+    tag: "LaTeX · TikZ"
+    description:
+      es-ar: Marcado sintáctico sobre texto corrido. Sin árboles.
+      en-us: Syntactic annotation over running text. No trees.
+    actions:
+      - label:
+          es-ar: Docs
+          en-us: Docs
+        url: https://sintaxismark.pablozd.ar
+        style: primary
+      - label:
+          es-ar: ↓ .sty
+          en-us: ↓ .sty
+        url: "#"
+        style: outline
+      - label:
+          es-ar: GitHub
+          en-us: GitHub
+        url: https://github.com/pablozd/sintaxismark
+        style: outline
+  - title: Beamer templates
+    tag: "LaTeX · Beamer"
+    description:
+      es-ar: Plantillas para presentaciones académicas.
+      en-us: Templates for academic presentations.
+    actions:
+      - label:
+          es-ar: ↓ .zip
+          en-us: ↓ .zip
+        url: "#"
+        style: primary
+  - title: Paper template
+    tag: "LaTeX · gb4e"
+    description:
+      es-ar: Artículo lingüístico con gb4e y biblatex unified.
+      en-us: Linguistics paper with gb4e and biblatex unified.
+    actions:
+      - label:
+          es-ar: ↓ .zip
+          en-us: ↓ .zip
+        url: "#"
+        style: primary

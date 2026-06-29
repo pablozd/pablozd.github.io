@@ -13,7 +13,17 @@
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
+        {% if project.year %}
+          <p class="card-year">{{ project.year }}</p>
+        {% endif %}
         <p class="card-text">{{ project.description }}</p>
+        {% if project.keywords %}
+          <div class="card-keywords">
+            {% for keyword in project.keywords %}
+              <span class="tool-tag tag-pkg">{{ keyword }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">

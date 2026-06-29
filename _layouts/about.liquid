@@ -1,49 +1,79 @@
 ---
 layout: default
 ---
+{% if page.banner %}
+  <div class="banner-wrap">
+    <img src="{{ page.banner.image | prepend: 'assets/img/' | relative_url }}" alt="banner"/>
+    <div class="banner-tint"></div>
+    <div class="banner-fade-l"></div>
+    <div class="banner-fade-r"></div>
+    <div class="banner-fade-b"></div>
+  </div>
+{% endif %}
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile-row">
         {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          <div class="avatar-col">
+            <div class="avatar">
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class="avatar-img" sizes="112px" alt=page.profile.image
+                cache_bust=true
+              %}
+            </div>
+            {% if page.profile.more_info %}
+              <div class="avatar-more-info">{{ page.profile.more_info }}</div>
+            {% endif %}
+            {% if site.data.socials.email %}
+              <div class="avatar-email">
+                <a href="mailto:{{ site.data.socials.email | encode_email }}" class="chip" title="{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i>Email</a>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="profile-text">
+          <h1 class="post-title">
+            {% if site.title == 'blank' %}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.last_name }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+          {% if page.profile.role %}
+            <div class="role">{{ page.profile.role }}</div>
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+          <div class="clearfix">{{ content }}</div>
+
+          <!-- Social -->
+          {% if page.social %}
+            <div class="social-row">{% include social_pills.liquid %}</div>
+          {% endif %}
+        </div>
+      </div>
+    {% else %}
+      <header class="post-header">
+        <h1 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <p class="desc">{{ page.subtitle }}</p>
+      </header>
+      <div class="clearfix">{{ content }}</div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <div class="section-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
-      </h2>
+      </div>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -57,19 +87,23 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <div class="section-title">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.selected_publications }}</a>
-      </h2>
+      </div>
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.data[site.active_lang].strings.contact_note }}</div>
+    <!-- Tools (web apps) -->
+    {% if page.tools %}
+      {% if site.active_lang == 'en-us' %}
+        {% assign tools_url = '/tools/' %}
+      {% else %}
+        {% assign tools_url = '/herramientas/' %}
+      {% endif %}
+      <div class="section-title">
+        <a href="{{ tools_url | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.tools.web_apps }}</a>
       </div>
+      {% include tools.liquid section="apps" %}
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

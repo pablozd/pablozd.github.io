@@ -9,8 +9,9 @@ last_name: Zdrojewski
 keywords: syntax, theoretical linguistics, Spanish grammar, linguistic variation # add your own keywords or leave empty
 icon: arbol.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://pablozd.github.io # the base hostname & protocol for your site
+url: https://pablozd.ar # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+moodle_url: https://moodle.pablozd.ar # external link button in the navbar
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -106,19 +107,13 @@ giscus:
   emit_metadata: 0
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: Pablo D. Zdrojewski # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+disqus_shortname:
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -182,6 +177,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/en-us/about_einstein.md
+  - _pages/es-ar/about_einstein.md
   - _pages/pt-br/about_einstein.md
   - purgecss.config.js
   - README.md
@@ -344,8 +340,8 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us"]
-default_lang: "en-us"
+languages: ["es-ar", "en-us"]
+default_lang: "es-ar"
 exclude_from_localization: ["assets"]
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
@@ -395,7 +391,7 @@ enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
+enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)

@@ -1,0 +1,39 @@
+<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.conferencias }}</div>
+<div class="news-list">
+  {% for item in site.data.presentaciones.conferencias %}
+    <div class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.ponencias }}</div>
+<div class="news-list">
+  {% for item in site.data.presentaciones.ponencias %}
+    <div class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.colaboracion }}</div>
+<div class="news-list">
+  {% for item in site.data.presentaciones.colaboracion %}
+    <div class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.posters }}</div>
+<div class="news-list">
+  {% for item in site.data.presentaciones.posters %}
+    <div class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-text">{{ item.text }}</span>
+    </div>
+  {% endfor %}
+</div>

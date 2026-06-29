@@ -1,46 +1,46 @@
 ---
 ---
-<div class="row">
+<div class="row pub-item">
+  {% assign venue_color = null %}
+  {% if entry.abbr and site.data.venues[entry.abbr] and site.data.venues[entry.abbr].color != blank %}
+    {% assign venue_color = site.data.venues[entry.abbr].color %}
+  {% endif %}
+  {% assign thumb_color = venue_color | default: '#828282' %}
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
-      {%- if entry.abbr -%}
-        {%- if site.data.venues[entry.abbr] -%}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-          {%- endif -%}
-          <abbr
-            class="badge rounded w-100"
-            {% if venue_style %}
-              {{ venue_style }}
-            {% endif -%}
-          >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-            {% else %}
-              <div>{{- entry.abbr -}}</div>
-            {% endif %}
-          </abbr>
-        {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
-        {% endif %}
-      {% endif %}
+    <div class="col col-sm-2 pub-thumb-col">
       {% if entry.preview %}
-        {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-        {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
-          %}
-        {% endif %}
+        <div class="pub-thumb-frame" style="background-color:{{ thumb_color }}14;">
+          {% if entry.preview contains '://' %}
+            <img class="preview" src="{{ entry.preview }}">
+          {% else %}
+            {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+            {%
+              include figure.liquid
+              loading="eager"
+              path=entry_path
+              sizes = "200px"
+              class="preview"
+              zoomable=true
+              avoid_scaling=true
+              alt=entry.preview
+            %}
+          {% endif %}
+        </div>
+      {% else %}
+        <svg class="pub-thumb-placeholder" width="52" height="67" viewBox="0 0 52 67" xmlns="http://www.w3.org/2000/svg">
+          <rect width="52" height="67" fill="{{ thumb_color }}" fill-opacity=".08"/>
+          <rect x="5" y="5" width="42" height="57" rx="2" fill="var(--global-card-bg-color)" stroke="var(--global-divider-color)" stroke-width=".7"/>
+          <rect x="9" y="11" width="26" height="2.5" rx="1" fill="{{ thumb_color }}" opacity=".8"/>
+          <rect x="9" y="17" width="34" height="1.4" rx=".7" fill="var(--global-text-color)" opacity=".22"/>
+          <rect x="9" y="21" width="30" height="1.4" rx=".7" fill="var(--global-text-color)" opacity=".18"/>
+          <rect x="9" y="25" width="32" height="1.4" rx=".7" fill="var(--global-text-color)" opacity=".18"/>
+          <rect x="9" y="32" width="34" height="1" rx=".5" fill="var(--global-text-color)" opacity=".11"/>
+          <rect x="9" y="35" width="28" height="1" rx=".5" fill="var(--global-text-color)" opacity=".11"/>
+          <rect x="9" y="38" width="31" height="1" rx=".5" fill="var(--global-text-color)" opacity=".11"/>
+          {% if entry.abbr %}
+            <text x="26" y="58" text-anchor="middle" font-size="6" fill="{{ thumb_color }}" font-family="Georgia,serif" font-style="italic">{{ entry.abbr }}</text>
+          {% endif %}
+        </svg>
       {% endif %}
     </div>
   {% endif %}
@@ -189,6 +189,9 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.abbr %}
+        <a class="abbr-badge btn btn-sm z-depth-0" role="button" {% if venue_color %}style="border-color:{{ venue_color }}; color:{{ venue_color }};"{% endif %}>{{ entry.abbr }}</a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}

@@ -37,3 +37,7 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
+group :development do
+    gem 'ruby-lsp', '>= 0.18.0', require: false
+end

@@ -1,6 +1,6 @@
 <div class="tabs-nav">
   {% for tab in include.tabs %}
-    {% assign parts = tab | split: "|" %}
+    {% assign parts = tab | split: '|' %}
     {% assign tab_id = parts[0] %}
     {% if parts[1] %}
       {% assign tab_label = parts[1] %}

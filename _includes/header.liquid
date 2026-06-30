@@ -129,7 +129,7 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
                     {% else %}
-                      {{ other_language | split: "-" | first | upcase }}
+                      {{ other_language | split: '-' | first | upcase }}
                     {%- endif -%}
                   </a>
                 {% else %}
@@ -138,7 +138,7 @@
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
                     {% else %}
-                      {{ site.default_lang | split: "-" | first | upcase }}
+                      {{ site.default_lang | split: '-' | first | upcase }}
                     {%- endif -%}
                   </a>
                 {% endif %}

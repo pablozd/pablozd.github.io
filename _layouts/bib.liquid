@@ -190,7 +190,15 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.abbr %}
-        <a class="abbr-badge btn btn-sm z-depth-0" role="button" {% if venue_color %}style="border-color:{{ venue_color }}; color:{{ venue_color }};"{% endif %}>{{ entry.abbr }}</a>
+        <a
+          class="abbr-badge btn btn-sm z-depth-0"
+          role="button"
+          {% if venue_color %}
+            style="border-color:{{ venue_color }}; color:{{ venue_color }};"
+          {% endif %}
+        >
+          {{- entry.abbr -}}
+        </a>
       {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">

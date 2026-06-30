@@ -92,12 +92,12 @@ what triggers the language-mixing bug below.
   footer in another (`coordinate_documents`'s `@file_langs` cache
   doesn't always reset cleanly across partial rebuilds). The `serve`
   driver command always does `rm -rf _site .jekyll-cache
-  .jekyll-metadata` first — never skip that, and never trust a build
+.jekyll-metadata` first — never skip that, and never trust a build
   you didn't just (re)start clean. Always run `check-langs` after
   `serve` before screenshotting anything content-related.
 - **Two competing CV data sources.** `_layouts/cv.liquid` prefers
-  `assets/json/resume_<lang>.json` over `_data/<lang>/cv.yml` *if that
-  json file exists*. As of this writing there's no
+  `assets/json/resume_<lang>.json` over `_data/<lang>/cv.yml` _if that
+  json file exists_. As of this writing there's no
   `resume_es-ar.json`/`resume_en-us.json`, so both languages render
   from `_data/<lang>/cv.yml` — but if one reappears, edits to the
   matching `cv.yml` will silently have no effect on `/cv/`.
@@ -116,10 +116,10 @@ what triggers the language-mixing bug below.
 
 ## Troubleshooting
 
-| Symptom | Fix |
-|---|---|
-| `serve` times out / `EADDRINUSE` | A previous server is still bound to 8080. `pkill -9 -f "jekyll serve"`, wait 1s, retry. |
-| `Error [ERR_UNSUPPORTED_DIR_IMPORT]` from `screenshot.mjs` | Playwright was installed somewhere other than the path hardcoded as `PLAYWRIGHT_PATH` in `screenshot.mjs`. Find it with `find / -maxdepth 6 -path "*node_modules/playwright" -type d 2>/dev/null` and update the constant. |
-| `screenshot.mjs` says `chromium-headless-shell` missing / launch fails | Run `npx playwright install chromium` (full Chromium, not just the headless shell) and `sudo env "PATH=$PATH" npx playwright install-deps chromium`. |
-| `check-langs` shows English text on the es-ar nav (or vice versa) | Stale build. Re-run `serve` — it cleans `_site`/`.jekyll-cache` before rebuilding. |
-| A `--click` does nothing (page looks unchanged) | The text matched a non-interactive element first. Use a more specific/unique string, or check the element is actually `<a>`/`<button>`. |
+| Symptom                                                                | Fix                                                                                                                                                                                                                        |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `serve` times out / `EADDRINUSE`                                       | A previous server is still bound to 8080. `pkill -9 -f "jekyll serve"`, wait 1s, retry.                                                                                                                                    |
+| `Error [ERR_UNSUPPORTED_DIR_IMPORT]` from `screenshot.mjs`             | Playwright was installed somewhere other than the path hardcoded as `PLAYWRIGHT_PATH` in `screenshot.mjs`. Find it with `find / -maxdepth 6 -path "*node_modules/playwright" -type d 2>/dev/null` and update the constant. |
+| `screenshot.mjs` says `chromium-headless-shell` missing / launch fails | Run `npx playwright install chromium` (full Chromium, not just the headless shell) and `sudo env "PATH=$PATH" npx playwright install-deps chromium`.                                                                       |
+| `check-langs` shows English text on the es-ar nav (or vice versa)      | Stale build. Re-run `serve` — it cleans `_site`/`.jekyll-cache` before rebuilding.                                                                                                                                         |
+| A `--click` does nothing (page looks unchanged)                        | The text matched a non-interactive element first. Use a more specific/unique string, or check the element is actually `<a>`/`<button>`.                                                                                    |

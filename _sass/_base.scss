@@ -1472,15 +1472,32 @@ body {
   margin-bottom: 0;
 }
 .banner-wrap img {
-  width: 100%; height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center 35%;
   display: block;
 }
-.banner-tint   { position: absolute; inset: 0; background: rgba(15,108,191,.10); }
-.banner-fade-l { position: absolute; inset: 0; background: linear-gradient(to right, rgba(10,74,143,.38) 0%, transparent 35%); }
-.banner-fade-r { position: absolute; inset: 0; background: linear-gradient(to left,  rgba(10,74,143,.38) 0%, transparent 35%); }
-.banner-fade-b { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 50%, var(--global-bg-color) 100%); }
+.banner-tint {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 108, 191, 0.1);
+}
+.banner-fade-l {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(10, 74, 143, 0.38) 0%, transparent 35%);
+}
+.banner-fade-r {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to left, rgba(10, 74, 143, 0.38) 0%, transparent 35%);
+}
+.banner-fade-b {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, var(--global-bg-color) 100%);
+}
 
 /* ---- Navbar zdro ---- */
 #navbar.navbar-light {

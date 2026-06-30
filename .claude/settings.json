@@ -60,8 +60,6 @@
       "Bash(ruby -ryaml -e \"d = YAML.load_file\\('_data/presentaciones.yml'\\); puts d.keys.inspect; d.each { |k,v| puts \\\\\"#{k}: #{v.size}\\\\\" }; puts '---sample ponencias---'; d['ponencias'][0..2].each { |e| puts e['text'] }; puts '---sample conferencias---'; d['conferencias'].each { |e| puts e['text'][0..60] }\")",
       "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /investigacion/ /tmp/ponencias_names.png --click \"Presentaciones\" --width 1000 --height 900)"
     ],
-    "additionalDirectories": [
-      "/tmp"
-    ]
+    "additionalDirectories": ["/tmp"]
   }
 }

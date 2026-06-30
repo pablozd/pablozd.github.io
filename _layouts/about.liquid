@@ -3,7 +3,7 @@ layout: default
 ---
 {% if page.banner %}
   <div class="banner-wrap">
-    <img src="{{ page.banner.image | prepend: 'assets/img/' | relative_url }}" alt="banner"/>
+    <img src="{{ page.banner.image | prepend: 'assets/img/' | relative_url }}" alt="banner">
     <div class="banner-tint"></div>
     <div class="banner-fade-l"></div>
     <div class="banner-fade-r"></div>
@@ -28,7 +28,9 @@ layout: default
             {% endif %}
             {% if site.data.socials.email %}
               <div class="avatar-email">
-                <a href="mailto:{{ site.data.socials.email | encode_email }}" class="chip" title="{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i>Email</a>
+                <a href="mailto:{{ site.data.socials.email | encode_email }}" class="chip" title="{{ site.data.socials.email }}"
+                  ><i class="fa-solid fa-envelope"></i>Email</a
+                >
               </div>
             {% endif %}
           </div>

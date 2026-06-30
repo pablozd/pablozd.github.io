@@ -42,7 +42,7 @@ horizontal: false
 
   <div class="publications">
 
-  {% bibliography %}
+{% bibliography %}
 
   </div>
 </div>

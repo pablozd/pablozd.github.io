@@ -1462,9 +1462,9 @@ body {
 }
 .banner-wrap {
   position: relative;
+  left: 50%;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
+  margin-left: -50vw;
   margin-top: -3rem;
   height: 145px;
   overflow: hidden;

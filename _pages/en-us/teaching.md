@@ -79,11 +79,11 @@ nav_order: 4
 <div class="tab-pane" id="tab-graduate">
   <div class="news-list">
     <div class="news-item">
-      <span class="news-date">—</span>
+      <span class="news-date">2024-present</span>
       <span class="news-text"><em>Semántica y Pragmática</em>. Diplomatura de Extensión Universitaria en Enseñanza de la Gramática, Universidad de Buenos Aires (32 hrs).</span>
     </div>
     <div class="news-item">
-      <span class="news-date">—</span>
+      <span class="news-date">2023</span>
       <span class="news-text"><em>Generative Grammar</em>. Trayecto de Formación Gramatical, Facultad de Lenguas, Universidad Nacional de Córdoba (40 hrs).</span>
     </div>
     <div class="news-item">
@@ -107,6 +107,18 @@ nav_order: 4
 
 <div class="tab-pane" id="tab-tertiary">
   <div class="news-list">
+    <div class="news-item">
+      <span class="news-date">2026-present</span>
+      <span class="news-text"><em>Lengua Castellana</em>. Profesorado de Inglés, Instituto de Educación Superior en Lenguas Vivas "Juan Ramón Fernández".</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2025-present</span>
+      <span class="news-text"><em>Lengua Española I</em>. Traductorado de Alemán, Instituto de Educación Superior en Lenguas Vivas "Juan Ramón Fernández".</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2025-present</span>
+      <span class="news-text"><em>Lengua Castellana</em>. Profesorado de Portugués, Instituto de Educación Superior en Lenguas Vivas "Juan Ramón Fernández".</span>
+    </div>
     <div class="news-item">
       <span class="news-date">2010</span>
       <span class="news-text"><em>Morfosintaxis del Español</em>. Profesorado de Letras, Instituto de Educación Superior N°1 "Alicia Moreau de Justo".</span>

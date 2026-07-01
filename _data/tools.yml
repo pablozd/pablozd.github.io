@@ -24,7 +24,7 @@ apps:
 
 latex:
   - title: sintaxismark
-    tag: "LaTeX · TikZ"
+    tag: "LaTeX · Package"
     description:
       es-ar: Marcado sintáctico sobre texto corrido. Sin árboles.
       en-us: Syntactic annotation over running text. No trees.

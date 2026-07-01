@@ -22,7 +22,7 @@ nav_order: 4
     </div>
     <div class="news-item">
       <span class="news-date">2019-present</span>
-      <span class="news-text">Teaching Assistant / Chief TA (Regular). <em>Grammar</em> (Chair B) and <em>Phonology and Morphology</em>. Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires. Full-time.</span>
+      <span class="news-text">Teaching Assistant / Chief TA. <em>Grammar</em> (Chair B) and <em>Phonology and Morphology</em>. Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires. Full-time.</span>
     </div>
   </div>
 </div>
@@ -30,48 +30,44 @@ nav_order: 4
 <div class="tab-pane" id="tab-undergrad">
   <div class="news-list">
     <div class="news-item">
-      <span class="news-date">2010-2025</span>
-      <span class="news-text">Teaching Assistant (Regular). <em>Chomskyan Linguistics</em>. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
-    </div>
-    <div class="news-item">
       <span class="news-date">2024</span>
-      <span class="news-text">Adjunct Professor (interim). Graduate seminar <em>Temas de variación en español</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+      <span class="news-text">Adjunct Professor. Graduate seminar <em>Temas de variación en español</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2022</span>
-      <span class="news-text">Adjunct Professor (interim). Undergraduate seminar <em>Gramáticas formales: formalismos e implementaciones</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+      <span class="news-text">Adjunct Professor. Undergraduate seminar <em>Gramáticas formales: formalismos e implementaciones</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2012-2020</span>
-      <span class="news-text">D1 (Regular). <em>Lenguaje, Comunicación y Cultura I</em>, <em>Estudios Lingüísticos</em> and <em>Taller de Lectoescritura</em>. Instituto de Desarrollo Humano (IDH), Universidad Nacional de General Sarmiento.</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2011</span>
-      <span class="news-text">Teaching Assistant (interim). <em>Grammar</em>, Chair A. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2016</span>
-      <span class="news-text">Chief Teaching Assistant (contracted). <em>Taller de Lectura y Escritura / Taller de Lengua</em>. Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche.</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2016-2017</span>
-      <span class="news-text">Tutor (contracted). <em>Módulo Lengua</em>, Trayectos de Fortalecimiento Pedagógico. Instituto Nacional de Formación Docente.</span>
+      <span class="news-date">2016-2019</span>
+      <span class="news-text">Chief Teaching Assistant. <em>Taller de Lectura y Escritura / Taller de Lengua</em>. Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2015</span>
-      <span class="news-text">Adjunct Professor (interim). Undergraduate seminar <em>Aspectos de la variación sintáctica desde una perspectiva de la gramática generativa</em>. Departamento de Letras, Universidad de Buenos Aires.</span>
+      <span class="news-text">Adjunct Professor. Undergraduate seminar <em>Aspectos de la variación sintáctica desde una perspectiva de la gramática generativa</em>. Departamento de Letras, Universidad de Buenos Aires.</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2012-2020</span>
+      <span class="news-text">D1. <em>Lenguaje, Comunicación y Cultura I</em>, <em>Estudios Lingüísticos</em> and <em>Taller de Lectoescritura</em>. Instituto de Desarrollo Humano (IDH), Universidad Nacional de General Sarmiento.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2012</span>
       <span class="news-text"><em>General Linguistics</em>. Licenciatura en Letras, Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA).</span>
     </div>
     <div class="news-item">
+      <span class="news-date">2011-2021</span>
+      <span class="news-text">Teaching Assistant. <em>Grammar</em>, Chair A. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2010-2025</span>
+      <span class="news-text">Teaching Assistant. <em>Chomskyan Linguistics</em>. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+    </div>
+    <div class="news-item">
       <span class="news-date">2007-2010</span>
-      <span class="news-text">Teaching Assistant (interim). <em>Contrastive Analysis English-Spanish I and II</em>. Translation and Teaching programs, Escuela Superior de Idiomas, Universidad Nacional del Comahue.</span>
+      <span class="news-text">Teaching Assistant. <em>Contrastive Analysis English-Spanish I and II</em>. Translation and Teaching programs, Escuela Superior de Idiomas, Universidad Nacional del Comahue.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2005</span>
-      <span class="news-text">Teaching Assistant (interim). <em>Grammar 1</em>. Carrera de Letras, Facultad de Humanidades, Universidad Nacional del Comahue.</span>
+      <span class="news-text">Teaching Assistant. <em>Grammar 1</em>. Carrera de Letras, Facultad de Humanidades, Universidad Nacional del Comahue.</span>
     </div>
   </div>
 </div>
@@ -120,19 +116,23 @@ nav_order: 4
       <span class="news-text"><em>Lengua Castellana</em>. Profesorado de Portugués, Instituto de Educación Superior en Lenguas Vivas "Juan Ramón Fernández".</span>
     </div>
     <div class="news-item">
+      <span class="news-date">2016-2021</span>
+      <span class="news-text">Tutor. <em>Módulo Lengua</em>, subjects <em>Lengua I, II y III</em>, Trayectos de Fortalecimiento Pedagógico, Instituto Nacional de Formación Docente (INFD).</span>
+    </div>
+    <div class="news-item">
       <span class="news-date">2010</span>
       <span class="news-text"><em>Morfosintaxis del Español</em>. Profesorado de Letras, Instituto de Educación Superior N°1 "Alicia Moreau de Justo".</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2010</span>
+      <span class="news-date">2010-2011</span>
       <span class="news-text"><em>Gramática Pedagógica I</em>. ELSE Program, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2010</span>
+      <span class="news-date">2010-2012</span>
       <span class="news-text"><em>Theory of Communication</em> and <em>Film Semiotics</em>. Animation program, Escuela de arte y diseño digital Da Vinci.</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2010</span>
+      <span class="news-date">2010-2012</span>
       <span class="news-text"><em>Psychology of Communication</em> and <em>Image Semiology</em>. Multimedia Design program, Escuela de arte y diseño digital Da Vinci.</span>
     </div>
   </div>
@@ -159,10 +159,6 @@ nav_order: 4
     <div class="news-item">
       <span class="news-date">2016</span>
       <span class="news-text">Micro-seminar <em>Cuestiones centrales sobre posiciones periféricas en la oración</em>. Universidad Nacional del Litoral (8 hrs).</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2017-2021</span>
-      <span class="news-text">Tutor for virtual classrooms, <em>Lengua I, II and III</em>, Trayectos de Fortalecimiento Pedagógico, Instituto Nacional de Formación Docente.</span>
     </div>
   </div>
 </div>

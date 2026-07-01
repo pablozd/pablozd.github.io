@@ -117,22 +117,22 @@ nav_order: 4
     </div>
     <div class="news-item">
       <span class="news-date">2016-2021</span>
-      <span class="news-text">Tutor. <em>Módulo Lengua</em>, Trayectos de Fortalecimiento Pedagógico. Instituto Nacional de Formación Docente.</span>
+      <span class="news-text">Tutor. <em>Módulo Lengua</em>, asignaturas <em>Lengua I, II y III</em>, Trayectos de Fortalecimiento Pedagógico, Instituto Nacional de Formación Docente (INFD).</span>
     </div>
     <div class="news-item">
       <span class="news-date">2010</span>
       <span class="news-text"><em>Morfosintaxis del Español</em>. Profesorado de Letras, Instituto de Educación Superior N°1 "Alicia Moreau de Justo".</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2010</span>
+      <span class="news-date">2010-2011</span>
       <span class="news-text"><em>Gramática Pedagógica I</em>. Programa ELSE, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2010</span>
+      <span class="news-date">2010-2012</span>
       <span class="news-text"><em>Teoría de la Comunicación</em> y <em>Semiótica del Cine</em>. Carrera de Cine de Animación, Escuela de arte y diseño digital Da Vinci.</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2010</span>
+      <span class="news-date">2010-2012</span>
       <span class="news-text"><em>Psicología de la Comunicación</em> y <em>Semiología de la imagen</em>. Carrera de Diseño Multimedial, Escuela de arte y diseño digital Da Vinci.</span>
     </div>
   </div>
@@ -159,10 +159,6 @@ nav_order: 4
     <div class="news-item">
       <span class="news-date">2016</span>
       <span class="news-text">Microseminario <em>Cuestiones centrales sobre posiciones periféricas en la oración</em>. Universidad Nacional del Litoral (8 hs).</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2017-2021</span>
-      <span class="news-text">Tutor a cargo de aulas virtuales, asignaturas <em>Lengua I, II y III</em>, Trayectos de Fortalecimiento Pedagógico, Instituto Nacional de Formación Docente.</span>
     </div>
   </div>
 </div>

@@ -40,8 +40,8 @@ latex:
         url: "#"
         style: outline
       - label:
-          es-ar: GitHub
-          en-us: GitHub
+          es-ar: GitHub ↗
+          en-us: GitHub ↗
         url: https://github.com/pablozd/sintaxismark
         style: outline
   - title: Beamer templates

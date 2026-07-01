@@ -38,7 +38,7 @@ nav_order: 4
       <span class="news-text">Profesor Adjunto. Seminario de grado <em>Gramáticas formales: formalismos e implementaciones</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2016</span>
+      <span class="news-date">2016-2019</span>
       <span class="news-text">Jefe de Trabajos Prácticos. <em>Taller de Lectura y Escritura / Taller de Lengua</em>. Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche.</span>
     </div>
     <div class="news-item">
@@ -54,7 +54,7 @@ nav_order: 4
       <span class="news-text"><em>Lingüística General</em>. Licenciatura en Letras, Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA).</span>
     </div>
     <div class="news-item">
-      <span class="news-date">2011</span>
+      <span class="news-date">2011-2021</span>
       <span class="news-text">Ayudante de Primera. <em>Gramática</em>, Cátedra A. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">

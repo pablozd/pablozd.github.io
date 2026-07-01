@@ -13,7 +13,7 @@ profile:
     <p>Puan 470, BA, Argentina</p>
 
 banner:
-  image: banner.png
+  image: banner-nuevo.png
 selected_papers: true # includes a list of papers marked as "selected={true}"
 tools: true # includes the web apps section (sintaxgram, arborgram)
 social: true # includes social icons at the bottom of the page

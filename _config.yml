@@ -7,7 +7,7 @@ first_name: Pablo
 middle_name: D.
 last_name: Zdrojewski
 keywords: syntax, theoretical linguistics, Spanish grammar, linguistic variation # add your own keywords or leave empty
-icon: arbol.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://pablozd.ar # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

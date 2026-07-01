@@ -1734,7 +1734,8 @@ article > .section-title {
   flex-shrink: 0;
   font-family: ui-monospace, Menlo, Consolas, monospace;
   font-size: 0.78rem;
-  min-width: 66px;
+  width: 100px;
+  white-space: nowrap;
   padding-top: 1px;
 }
 

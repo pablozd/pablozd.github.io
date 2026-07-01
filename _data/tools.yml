@@ -66,3 +66,8 @@ latex:
           en-us: ↓ .zip
         url: "https://github.com/pablozd/linguistic-templates/archive/refs/heads/main.zip"
         style: primary
+      - label:
+          es-ar: GitHub ↗
+          en-us: GitHub ↗
+        url: "https://github.com/pablozd/linguistic-templates"
+        style: outline

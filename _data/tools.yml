@@ -10,6 +10,11 @@ apps:
           en-us: Open
         url: https://sintaxgram.pablozd.ar
         style: primary
+      - label:
+          es-ar: GitHub ↗
+          en-us: GitHub ↗
+        url: https://github.com/pablozd/sintaxgram
+        style: outline
   - title: arborgram
     tag: app web
     description:
@@ -21,6 +26,11 @@ apps:
           en-us: Open
         url: https://arborgram.pablozd.ar
         style: primary
+      - label:
+          es-ar: GitHub ↗
+          en-us: GitHub ↗
+        url: https://github.com/pablozd/arborgram
+        style: outline
 
 latex:
   - title: sintaxismark

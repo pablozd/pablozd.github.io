@@ -22,7 +22,7 @@ nav_order: 4
     </div>
     <div class="news-item">
       <span class="news-date">2019-presente</span>
-      <span class="news-text">Jefe de Trabajos Prácticos (Regular). <em>Gramática</em> (Cátedra B) y <em>Fonología y Morfología</em>. Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires. Dedicación exclusiva.</span>
+      <span class="news-text">Jefe de Trabajos Prácticos. <em>Gramática</em> (Cátedra B) y <em>Fonología y Morfología</em>. Departamento de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires. Dedicación exclusiva.</span>
     </div>
   </div>
 </div>
@@ -30,48 +30,44 @@ nav_order: 4
 <div class="tab-pane" id="tab-grado">
   <div class="news-list">
     <div class="news-item">
-      <span class="news-date">2010-2025</span>
-      <span class="news-text">Ayudante de Primera (Regular). <em>Lingüística Chomskyana</em>. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
-    </div>
-    <div class="news-item">
       <span class="news-date">2024</span>
-      <span class="news-text">Profesor Adjunto (interino). Seminario de grado <em>Temas de variación en español</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+      <span class="news-text">Profesor Adjunto. Seminario de grado <em>Temas de variación en español</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2022</span>
-      <span class="news-text">Profesor Adjunto (interino). Seminario de grado <em>Gramáticas formales: formalismos e implementaciones</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2012-2020</span>
-      <span class="news-text">D1 (Regular). <em>Lenguaje, Comunicación y Cultura I</em>, <em>Estudios Lingüísticos</em> y <em>Taller de Lectoescritura</em>. Instituto de Desarrollo Humano (IDH), Universidad Nacional de General Sarmiento.</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2011</span>
-      <span class="news-text">Ayudante de Primera (interino). <em>Gramática</em>, Cátedra A. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+      <span class="news-text">Profesor Adjunto. Seminario de grado <em>Gramáticas formales: formalismos e implementaciones</em>. Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2016</span>
-      <span class="news-text">Jefe de Trabajos Prácticos (contratado). <em>Taller de Lectura y Escritura / Taller de Lengua</em>. Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche.</span>
-    </div>
-    <div class="news-item">
-      <span class="news-date">2016-2017</span>
-      <span class="news-text">Tutor (contratado). <em>Módulo Lengua</em>, Trayectos de Fortalecimiento Pedagógico. Instituto Nacional de Formación Docente.</span>
+      <span class="news-text">Jefe de Trabajos Prácticos. <em>Taller de Lectura y Escritura / Taller de Lengua</em>. Instituto de Estudios Iniciales, Universidad Nacional Arturo Jauretche.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2015</span>
-      <span class="news-text">Profesor Adjunto (interino). Seminario de grado <em>Aspectos de la variación sintáctica desde una perspectiva de la gramática generativa</em>. Departamento de Letras, Universidad de Buenos Aires.</span>
+      <span class="news-text">Profesor Adjunto. Seminario de grado <em>Aspectos de la variación sintáctica desde una perspectiva de la gramática generativa</em>. Departamento de Letras, Universidad de Buenos Aires.</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2012-2020</span>
+      <span class="news-text">D1. <em>Lenguaje, Comunicación y Cultura I</em>, <em>Estudios Lingüísticos</em> y <em>Taller de Lectoescritura</em>. Instituto de Desarrollo Humano (IDH), Universidad Nacional de General Sarmiento.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2012</span>
       <span class="news-text"><em>Lingüística General</em>. Licenciatura en Letras, Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA).</span>
     </div>
     <div class="news-item">
+      <span class="news-date">2011</span>
+      <span class="news-text">Ayudante de Primera. <em>Gramática</em>, Cátedra A. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2010-2025</span>
+      <span class="news-text">Ayudante de Primera. <em>Lingüística Chomskyana</em>. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires.</span>
+    </div>
+    <div class="news-item">
       <span class="news-date">2007-2010</span>
-      <span class="news-text">Ayudante de Primera (interino). <em>Análisis contrastivo Inglés-Español I y II</em>. Traductorado y Profesorado de Lengua Inglesa, Escuela Superior de Idiomas, Universidad Nacional del Comahue.</span>
+      <span class="news-text">Ayudante de Primera. <em>Análisis contrastivo Inglés-Español I y II</em>. Traductorado y Profesorado de Lengua Inglesa, Escuela Superior de Idiomas, Universidad Nacional del Comahue.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2005</span>
-      <span class="news-text">Ayudante de Primera (interino). <em>Gramática 1</em>. Carrera de Letras, Facultad de Humanidades, Universidad Nacional del Comahue.</span>
+      <span class="news-text">Ayudante de Primera. <em>Gramática 1</em>. Carrera de Letras, Facultad de Humanidades, Universidad Nacional del Comahue.</span>
     </div>
   </div>
 </div>
@@ -118,6 +114,10 @@ nav_order: 4
     <div class="news-item">
       <span class="news-date">2025-presente</span>
       <span class="news-text"><em>Lengua Castellana</em>. Profesorado de Portugués, Instituto de Educación Superior en Lenguas Vivas "Juan Ramón Fernández".</span>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2016-2021</span>
+      <span class="news-text">Tutor. <em>Módulo Lengua</em>, Trayectos de Fortalecimiento Pedagógico. Instituto Nacional de Formación Docente.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2010</span>

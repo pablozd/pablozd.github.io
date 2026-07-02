@@ -9,7 +9,8 @@
       {% endif %}
       <h4>{{ curso.title[site.active_lang] }}</h4>
       <p>
-        {% if curso.flag %}{{ curso.flag }} {% endif %}{{ curso.institution -}}
+        {% if curso.flag %}{{ curso.flag }} {% endif -%}
+        {{- curso.institution -}}
         <br>
         {{ curso.date[site.active_lang] -}}
         <br>

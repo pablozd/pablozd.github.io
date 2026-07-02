@@ -1919,6 +1919,14 @@ article > .section-title {
   color: var(--global-theme-color);
   border: 1px solid var(--global-divider-color);
 }
+.curso-logo {
+  margin-bottom: 8px;
+  img {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+  }
+}
 .btn-primary {
   background: var(--global-theme-color);
   color: #fff !important;

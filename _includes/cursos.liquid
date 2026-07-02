@@ -3,6 +3,11 @@
     <div class="tool-card">
       <div class="tool-tag tag-pkg">{{ curso.tag }}</div>
       <h4>{{ curso.title[site.active_lang] }}</h4>
+      {% if curso.logo %}
+        <div class="curso-logo">
+          <img src="{{ curso.logo | prepend: 'assets/img/' | relative_url }}" alt="{{ curso.institution }}">
+        </div>
+      {% endif %}
       <p>
         {% if curso.flag %}{{ curso.flag }} {% endif %}{{ curso.institution -}}
         <br>

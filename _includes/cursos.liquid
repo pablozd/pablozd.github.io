@@ -4,7 +4,7 @@
       <div class="tool-tag tag-pkg">{{ curso.tag }}</div>
       <h4>{{ curso.title[site.active_lang] }}</h4>
       <p>
-        {{ curso.institution -}}
+        {% if curso.flag %}{{ curso.flag }} {% endif %}{{ curso.institution -}}
         <br>
         {{ curso.date[site.active_lang] -}}
         <br>

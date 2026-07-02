@@ -77,7 +77,11 @@
       "WebFetch(domain:es.wikipedia.org)",
       "Bash(curl -sL \"https://upload.wikimedia.org/wikipedia/commons/e/e2/Unejpg-fill-300x244.jpg\" -o /tmp/logo_une.jpg)",
       "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_logos.png --width 1200 --height 650 --click \"Cursos de IA\")",
-      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_logos2.png --width 1200 --height 650 --click \"Cursos de IA\")"
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_logos2.png --width 1200 --height 650 --click \"Cursos de IA\")",
+      "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/deployments?per_page=5\")",
+      "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/deployments/5288758454/statuses\")",
+      "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/deployments?per_page=20\")",
+      "Bash(grep -v \"^$\")"
     ],
     "additionalDirectories": ["/tmp"]
   }

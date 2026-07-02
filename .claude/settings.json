@@ -58,7 +58,26 @@
       "Bash(python3 -c \"import json; json.load\\(open\\('/workspaces/pablozd.github.io/.claude/settings.json'\\)\\); print\\('valid JSON'\\)\")",
       "Bash(python3)",
       "Bash(ruby -ryaml -e \"d = YAML.load_file\\('_data/presentaciones.yml'\\); puts d.keys.inspect; d.each { |k,v| puts \\\\\"#{k}: #{v.size}\\\\\" }; puts '---sample ponencias---'; d['ponencias'][0..2].each { |e| puts e['text'] }; puts '---sample conferencias---'; d['conferencias'].each { |e| puts e['text'][0..60] }\")",
-      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /investigacion/ /tmp/ponencias_names.png --click \"Presentaciones\" --width 1000 --height 900)"
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /investigacion/ /tmp/ponencias_names.png --click \"Presentaciones\" --width 1000 --height 900)",
+      "Bash(git commit -m ' *)",
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs / /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_ia.png --width 1200 --height 600 --click \"Cursos de IA\")",
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_ia.png --width 1200 --height 700 --click \"Cursos de IA\")",
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_flags.png --width 1200 --height 600 --click \"Cursos de IA\")",
+      "WebFetch(domain:www.filo.uba.ar)",
+      "WebFetch(domain:www.unirioja.es)",
+      "WebFetch(domain:www.une.edu.py)",
+      "Bash(curl -sL \"https://filo.uba.ar/themes/contrib/fedro-theme/logo.png\" -o /tmp/logo_uba.png)",
+      "WebFetch(domain:une.edu.py)",
+      "Bash(curl -sL \"https://www.unirioja.es/img/ur-logo-color.svg\" -o /tmp/logo_unirioja.svg)",
+      "Bash(curl -sk \"https://www.une.edu.py/\" -o /tmp/une_home.html)",
+      "Bash(curl -sk \"https://www.unirioja.es\")",
+      "Bash(curl -sk --insecure \"https://www.une.edu.py/\")",
+      "Bash(curl -sL \"https://www.unirioja.es/wp-content/uploads/2024/03/Logo-UR-H-Color-300x67.png\" -o /tmp/logo_unirioja.png)",
+      "Bash(curl -sL --insecure \"https://www.une.edu.py/wp-content/uploads/2023/01/logo-une.png\" -o /tmp/logo_une.png)",
+      "WebFetch(domain:es.wikipedia.org)",
+      "Bash(curl -sL \"https://upload.wikimedia.org/wikipedia/commons/e/e2/Unejpg-fill-300x244.jpg\" -o /tmp/logo_une.jpg)",
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_logos.png --width 1200 --height 650 --click \"Cursos de IA\")",
+      "Bash(node .claude/skills/run-pablozd-site/screenshot.mjs /docencia/ /tmp/claude-1000/-workspaces-pablozd-github-io/e07a6818-8284-44b5-ae26-b107f4fc8021/scratchpad/cursos_logos2.png --width 1200 --height 650 --click \"Cursos de IA\")"
     ],
     "additionalDirectories": ["/tmp"]
   }

@@ -266,6 +266,12 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.researchgate %}
+        <a href="{{ entry.researchgate }}" class="btn btn-sm z-depth-0" role="button" target="_blank">ResearchGate</a>
+      {% endif %}
+      {% if entry.contact %}
+        <a href="mailto:{{ site.email }}" class="btn btn-sm z-depth-0" role="button">Contact</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

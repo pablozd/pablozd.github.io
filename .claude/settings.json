@@ -81,7 +81,20 @@
       "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/deployments?per_page=5\")",
       "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/deployments/5288758454/statuses\")",
       "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/deployments?per_page=20\")",
-      "Bash(grep -v \"^$\")"
+      "Bash(grep -v \"^$\")",
+      "Bash(mv \"Zdrojewski2023tesis.pdf\"                        \"zdrojewski2023caso.pdf\")",
+      "Bash(mv \"Por_quien_doblan_los_cliticos_Restricci1.pdf\"   \"zdrojewski2008quien.pdf\")",
+      "Bash(mv \"zdrojewski2013.pdf\"                             \"zdrojewski2013quien.pdf\")",
+      "Bash(mv \"zdrojewski2018.pdf\"                             \"zdrojewski2018marcacion.pdf\")",
+      "Bash(mv \"Zdrojewski&Sanchez.2014.pdf\"                    \"zdrojewski2014variation.pdf\")",
+      "Bash(rm \"No_maximalidad_en_MDO_en_espanol.pdf\" \"SaabZdrojewski.pdf\")",
+      "Bash(mv \"Saab&Zdrojewski2013.pdf\" \"Saab&Zdrojewski2013dislocacion.pdf\")",
+      "Bash(git mv *)",
+      "Bash(apt-cache show *)",
+      "Bash(sudo apt-get install -y libreoffice)",
+      "Bash(libreoffice --headless --convert-to pdf \"/workspaces/pablozd.github.io/assets/pdf/slides/Sanchez-Mayer-Zdrojewski.pptx\" --outdir \"/workspaces/pablozd.github.io/assets/pdf/slides/\")",
+      "Bash(rm \"Sanchez-Mayer-Zdrojewski.pptx\")",
+      "Bash(mv \"Sanchez-Mayer-Zdrojewski.pdf\" \"sanchez-mayer-zdrojewski2020SPADISYN.pdf\")"
     ],
     "additionalDirectories": ["/tmp"]
   }

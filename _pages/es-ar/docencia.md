@@ -178,4 +178,19 @@ nav_order: 4
 </div>
 
 <div class="tab-pane" id="tab-materiales">
+  <div class="news-list">
+    <div class="news-item">
+      <span class="news-date">2022</span>
+      <div class="pres-body">
+        <div class="pres-content">
+          <span class="news-text">Seminario de grado <em>Gramáticas formales: formalismos e implementaciones</em>. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires, primer cuatrimestre de 2022.</span>
+          <div class="links" style="margin-top:6px;">
+            <a href="https://letras.filo.uba.ar/sites/letras.filo.uba.ar/files/documentos/8.%20GRAM%C3%81TICAS%20FORMALES%20FORMALISMOS%20E%20IMPLEMENTACIONES%20CARRANZA%20ZDROJEWSKI.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Programa</a>
+            <a href="https://fernandocar86.github.io/seminario-gramaticas-formales/" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Materiales</a>
+            <a href="https://github.com/fernandocar86/seminario-gramaticas-formales" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Repositorio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

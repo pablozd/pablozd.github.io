@@ -1748,6 +1748,21 @@ article > .section-title {
 .pres-thumb-col {
   flex-shrink: 0;
 }
+a.yt-thumb-link {
+  flex-shrink: 0;
+  display: block;
+  img {
+    display: block;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: opacity 0.15s ease;
+    &:hover {
+      opacity: 0.82;
+    }
+  }
+}
 .pres-thumb-svg,
 .pres-thumb-img {
   display: block;

@@ -1,87 +1,89 @@
-<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.conferencias }}</div>
-<div class="news-list">
-  {% for item in site.data.presentaciones.conferencias %}
-    <div class="news-item">
-      <span class="news-date">{{ item.date }}</span>
-      <span class="news-text">
-        {{ item.text }}
-        {% if item.slides %}
-          <a
-            href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}"
-            class="btn btn-sm z-depth-0"
-            role="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Slides</a
-          >
+{% assign pres_sections = 'conferencias,ponencias,colaboracion,posters' | split: ',' %}
+{% for section_key in pres_sections %}
+  <div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones[section_key] }}</div>
+  <div class="news-list">
+    {% for item in site.data.presentaciones[section_key] %}
+      <div class="news-item">
+        <span class="news-date">{{ item.date }}</span>
+        {% if item.slides or item.preview %}
+          <div class="pres-body">
+            <div class="pres-thumb-col">
+              {% if item.preview %}
+                <img
+                  src="{{ item.preview | prepend: '/assets/img/' | relative_url }}"
+                  class="pres-thumb-img"
+                  alt=""
+                >
+              {% else %}
+                <svg
+                  class="pres-thumb-svg"
+                  width="67"
+                  height="50"
+                  viewBox="0 0 67 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="67" height="50" fill="var(--global-theme-color)" fill-opacity=".08" rx="2" />
+                  <rect
+                    x="3"
+                    y="3"
+                    width="61"
+                    height="38"
+                    rx="2"
+                    fill="var(--global-card-bg-color)"
+                    stroke="var(--global-divider-color)"
+                    stroke-width=".7"
+                  />
+                  <rect x="7" y="8" width="30" height="3" rx="1.5" fill="var(--global-theme-color)" opacity=".8" />
+                  <rect x="7" y="15" width="53" height="1.8" rx=".9" fill="var(--global-text-color)" opacity=".18" />
+                  <rect x="7" y="19" width="47" height="1.8" rx=".9" fill="var(--global-text-color)" opacity=".15" />
+                  <rect x="7" y="23" width="50" height="1.8" rx=".9" fill="var(--global-text-color)" opacity=".15" />
+                  <rect x="7" y="27" width="43" height="1.8" rx=".9" fill="var(--global-text-color)" opacity=".12" />
+                  <rect x="7" y="31" width="38" height="1.8" rx=".9" fill="var(--global-text-color)" opacity=".10" />
+                  <rect x="3" y="41" width="61" height="9" rx="0" fill="var(--global-divider-color)" fill-opacity=".5" />
+                  {% if item.abbr %}
+                    <text
+                      x="33"
+                      y="47.5"
+                      text-anchor="middle"
+                      font-size="5"
+                      fill="var(--global-text-color-light)"
+                      font-family="Georgia,serif"
+                      font-style="italic"
+                    >
+                      {{- item.abbr -}}
+                    </text>
+                  {% endif %}
+                </svg>
+              {% endif %}
+            </div>
+            <div class="pres-content">
+              <span class="news-text">{{ item.text }}</span>
+              <div class="links">
+                {% if item.slides %}
+                  <a
+                    href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}"
+                    class="btn btn-sm z-depth-0 slides-btn"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Slides</a
+                  >
+                {% endif %}
+                {% if item.bibtex %}
+                  <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+                {% endif %}
+              </div>
+              {% if item.bibtex %}
+                <div class="bibtex hidden">
+                  <pre>{{ item.bibtex }}</pre>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <span class="news-text">{{ item.text }}</span>
         {% endif %}
-      </span>
-    </div>
-  {% endfor %}
-</div>
-
-<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.ponencias }}</div>
-<div class="news-list">
-  {% for item in site.data.presentaciones.ponencias %}
-    <div class="news-item">
-      <span class="news-date">{{ item.date }}</span>
-      <span class="news-text">
-        {{ item.text }}
-        {% if item.slides %}
-          <a
-            href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}"
-            class="btn btn-sm z-depth-0"
-            role="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Slides</a
-          >
-        {% endif %}
-      </span>
-    </div>
-  {% endfor %}
-</div>
-
-<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.colaboracion }}</div>
-<div class="news-list">
-  {% for item in site.data.presentaciones.colaboracion %}
-    <div class="news-item">
-      <span class="news-date">{{ item.date }}</span>
-      <span class="news-text">
-        {{ item.text }}
-        {% if item.slides %}
-          <a
-            href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}"
-            class="btn btn-sm z-depth-0"
-            role="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Slides</a
-          >
-        {% endif %}
-      </span>
-    </div>
-  {% endfor %}
-</div>
-
-<div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones.posters }}</div>
-<div class="news-list">
-  {% for item in site.data.presentaciones.posters %}
-    <div class="news-item">
-      <span class="news-date">{{ item.date }}</span>
-      <span class="news-text">
-        {{ item.text }}
-        {% if item.slides %}
-          <a
-            href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}"
-            class="btn btn-sm z-depth-0"
-            role="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Slides</a
-          >
-        {% endif %}
-      </span>
-    </div>
-  {% endfor %}
-</div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

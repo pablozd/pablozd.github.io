@@ -1738,6 +1738,79 @@ article > .section-title {
   white-space: nowrap;
   padding-top: 1px;
 }
+.pres-body {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  align-items: flex-start;
+  min-width: 0;
+}
+.pres-thumb-col {
+  flex-shrink: 0;
+}
+.pres-thumb-svg,
+.pres-thumb-img {
+  display: block;
+  width: 67px;
+  height: 50px;
+  border-radius: 3px;
+}
+.pres-content {
+  flex: 1;
+  min-width: 0;
+
+  .links {
+    margin-top: 5px;
+
+    a.btn {
+      border: 1px solid var(--global-text-color);
+      border-radius: 3px;
+      color: var(--global-text-color);
+      font-size: 0.72rem;
+      margin-right: 4px;
+      padding: 2px 8px;
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color);
+      }
+    }
+
+    a.slides-btn.btn {
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: #fff;
+
+      &:hover {
+        color: #fff;
+        opacity: 0.85;
+      }
+    }
+  }
+
+  .hidden {
+    font-size: 0.82rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.15s ease;
+
+    pre {
+      background: var(--global-code-bg-color);
+      border: 1px dashed var(--global-divider-color);
+      border-radius: 3px;
+      font-size: 0.8em;
+      line-height: 1.4;
+      margin-top: 6px;
+      padding: 8px;
+      white-space: pre-wrap;
+    }
+  }
+
+  .hidden.open {
+    max-height: 30em;
+    transition: all 0.15s ease;
+  }
+}
 
 /* ---- Publications card zdro ---- */
 .publications ol.bibliography li .pub-item {

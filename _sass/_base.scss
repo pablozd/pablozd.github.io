@@ -2089,3 +2089,10 @@ a.yt-card {
   gap: 5px;
   margin-bottom: 8px;
 }
+
+/* ---- Groups card image uniform height ---- */
+.groups-grid .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+}

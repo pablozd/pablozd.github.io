@@ -17,6 +17,13 @@
     es-ar: Draft
     en-us: Draft
   pdf: zdrojewski2021draft.pdf
+  bibtex: |
+    @unpublished{zdrojewski2021mdo,
+      author = {Zdrojewski, Pablo},
+      title  = {Marcado Diferencial de Objetos y Doblado Pronominal. Aspectos de la variación dialectal en español},
+      note   = {Borrador},
+      year   = {2021},
+    }
 
 - title: The System of A-dependencies. A Theoretical Approach for a Fragment of Spanish Grammar
   authors: Andrés Saab, Pablo Zdrojewski y Mercedes Pujalte

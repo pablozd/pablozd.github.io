@@ -24,9 +24,17 @@
             <div class="links">
               <a class="abbr-badge btn btn-sm z-depth-0" role="button">{{ draft.tag[site.active_lang] }}</a>
               {% if draft.pdf %}
-                <a href="{{ draft.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                <a href="{{ draft.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+              {% endif %}
+              {% if draft.bibtex %}
+                <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
               {% endif %}
             </div>
+            {% if draft.bibtex %}
+              <div class="bibtex hidden">
+                <pre>{{ draft.bibtex }}</pre>
+              </div>
+            {% endif %}
           </div>
         </div>
       </li>

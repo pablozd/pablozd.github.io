@@ -79,6 +79,30 @@ ponencias:
     text: "Zdrojewski, P. La incompatibilidad de las tesis innatistas de Chomsky y Putnam. I Encuentro sobre Lingüística y Filosofía, Facultad de Filosofía y Letras, Universidad de Buenos Aires, 13-14 de agosto."
 
 colaboracion:
+  - date: mar 2026
+    text: "Carranza, F. y P. Zdrojewski. <em>Miedación desbloqueada</em>. I Coloquio de la Asociación Latinoamericana de Lingüística Formal (ALLF), Universidad de la República, Montevideo, Uruguay, 26-27 de marzo de 2026."
+    slides: slides/2026-ALLF.pdf
+    abbr: ALLF
+    bibtex: |
+      @misc{carranza2026mediacion,
+        author       = {Carranza, Fernando and Zdrojewski, Pablo},
+        title        = {Miedación desbloqueada},
+        howpublished = {I Coloquio ALLF, Universidad de la República, Montevideo, Uruguay},
+        year         = {2026},
+        month        = {mar},
+      }
+  - date: oct 2025
+    text: "Carranza, F. y P. Zdrojewski. <em>Ortografías disidentes en redes sociales: uso y contribución semántica</em>. II Jornadas del Instituto de Filología y Literaturas Hispánicas «Dr. Amado Alonso», Ciudad Autónoma de Buenos Aires, 29-31 de octubre de 2025."
+    slides: slides/2025-Carranza-Zdrojewski-iflh.pdf
+    abbr: IFLH
+    bibtex: |
+      @misc{carranza2025ortografias,
+        author       = {Carranza, Fernando and Zdrojewski, Pablo},
+        title        = {Ortografías disidentes en redes sociales: uso y contribución semántica},
+        howpublished = {II Jornadas IFLH Dr. Amado Alonso, Buenos Aires},
+        year         = {2025},
+        month        = {oct},
+      }
   - date: abr 2022
     text: "Zdrojewski, P. y F. Carranza. <em>Obviation effects within Spanish pseudo-relative clauses</em>. Workshop <em>Romance Languages: Recent Contributions to Linguistic Theory</em>, Pontificia Universidad Católica de Rio de Janeiro, Universidad Federal de Santa Catarina y CNPq, online, 28-29 de abril."
   - date: may 2021

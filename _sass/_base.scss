@@ -1845,6 +1845,7 @@ article > .section-title {
   > .col.col-sm-2.pub-thumb-col {
     flex: 0 0 52px;
     max-width: 52px;
+    padding-left: 0;
     padding-right: 0;
   }
 
@@ -1852,6 +1853,7 @@ article > .section-title {
     flex: 1 1 0;
     max-width: none;
     min-width: 0;
+    padding-left: 14px;
     display: flex;
     flex-direction: column;
 

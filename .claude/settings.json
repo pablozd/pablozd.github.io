@@ -96,7 +96,9 @@
       "Bash(rm \"Sanchez-Mayer-Zdrojewski.pptx\")",
       "Bash(mv \"Sanchez-Mayer-Zdrojewski.pdf\" \"sanchez-mayer-zdrojewski2020SPADISYN.pdf\")",
       "Bash(curl -s \"https://api.github.com/repos/pablozd/pablozd.github.io/actions/runs?per_page=5\")",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(curl -s -I \"https://pablozd.ar\")",
+      "Bash(curl -s \"https://pablozd.ar/investigacion/\")"
     ],
     "additionalDirectories": ["/tmp"]
   }

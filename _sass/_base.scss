@@ -1748,34 +1748,61 @@ article > .section-title {
 .pres-thumb-col {
   flex-shrink: 0;
 }
-a.yt-thumb-link {
-  flex-shrink: 0;
+.yt-course-block {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a.yt-card {
   display: block;
   position: relative;
-  border-radius: 5px;
+  max-width: 220px;
+  border-radius: 7px;
   overflow: hidden;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  text-decoration: none;
+
   img {
     display: block;
-    width: 80px;
-    height: 60px;
-    object-fit: cover;
-    transition: opacity 0.18s ease;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.2s ease;
   }
-  &::after {
-    content: "";
+
+  .yt-card-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0)
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='rgba(0%2C0%2C0%2C0.52)'/%3E%3Cpolygon points='10%2C8.5 17%2C12 10%2C15.5' fill='white'/%3E%3C/svg%3E")
-      center / 22px no-repeat;
-    transition: background-color 0.18s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background: rgba(0, 0, 0, 0.12);
+    transition: background 0.2s ease;
+
+    svg {
+      width: 34px;
+      height: 34px;
+      filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.5));
+    }
+
+    span {
+      font-size: 0.6rem;
+      color: #fff;
+      letter-spacing: 0.03em;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    }
   }
+
   &:hover img {
     opacity: 0.88;
   }
-  &:hover::after {
-    background-color: rgba(0, 0, 0, 0.12);
+
+  &:hover .yt-card-overlay {
+    background: rgba(0, 0, 0, 0.26);
   }
 }
 .pres-thumb-svg,

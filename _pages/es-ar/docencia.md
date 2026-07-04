@@ -142,20 +142,28 @@ nav_order: 4
   <div class="news-list">
     <div class="news-item">
       <span class="news-date">2023</span>
-      <div class="pres-body">
-        <a class="yt-thumb-link" href="https://www.youtube.com/playlist?list=PLYIq9_-6kKjA" target="_blank" rel="noopener noreferrer">
-          <img src="/assets/img/yt_estrategias2023.jpg" alt="Ver en YouTube">
-        </a>
+      <div class="yt-course-block">
         <span class="news-text"><em>Estrategias léxico-textuales para la enseñanza de la lectura y la escritura</em> (junto con Mabel Giammatteo y Augusto Trombetta). Curso de formación docente INFD-FFyL-UBA, virtual.</span>
+        <a class="yt-card" href="https://www.youtube.com/playlist?list=PLYIq9_-6kKjA" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/yt_estrategias2023.jpg" alt="Ver en YouTube">
+          <div class="yt-card-overlay">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="rgba(0,0,0,0.55)"/><polygon points="10,8 17,12 10,16" fill="white"/></svg>
+            <span>Ver en YouTube ↗</span>
+          </div>
+        </a>
       </div>
     </div>
     <div class="news-item">
       <span class="news-date">2022</span>
-      <div class="pres-body">
-        <a class="yt-thumb-link" href="https://www.youtube.com/playlist?list=PLaTtB-em8qNo" target="_blank" rel="noopener noreferrer">
-          <img src="/assets/img/yt_gramatica2022.jpg" alt="Ver en YouTube">
-        </a>
+      <div class="yt-course-block">
         <span class="news-text"><em>Temas actuales en Gramática</em> (junto con Mabel Giammatteo y Augusto Trombetta), Curso de Extensión (SEUBE) virtual.</span>
+        <a class="yt-card" href="https://www.youtube.com/playlist?list=PLaTtB-em8qNo" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/yt_gramatica2022.jpg" alt="Ver en YouTube">
+          <div class="yt-card-overlay">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="rgba(0,0,0,0.55)"/><polygon points="10,8 17,12 10,16" fill="white"/></svg>
+            <span>Ver en YouTube ↗</span>
+          </div>
+        </a>
       </div>
     </div>
     <div class="news-item">

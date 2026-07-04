@@ -142,19 +142,19 @@ nav_order: 4
   <div class="news-list">
     <div class="news-item">
       <span class="news-date">2023</span>
-      <span class="news-text">Curso de formación docente <em>Estrategias léxico-textuales para la enseñanza de la lectura y la escritura</em> (junto con Mabel Giammatteo y Augusto Trombetta). INFD-FFyL UBA, virtual (40 hs).</span>
+      <span class="news-text"><em>Estrategias léxico-textuales para la enseñanza de la lectura y la escritura</em> (junto con Mabel Giammatteo y Augusto Trombetta). Curso de formación docente INFD-FFyL-UBA, virtual.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2022</span>
-      <span class="news-text">Dictado de <em>Gramática</em>, carrera de Letras, programa UBA XXII, Centro Universitario Devoto (60 hs).</span>
+      <span class="news-text"><em>Temas actuales en Gramática</em> (junto con Mabel Giammatteo y Augusto Trombetta), Curso de Extensión (SEUBE) virtual.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2022</span>
-      <span class="news-text">Curso de Extensión (SEUBE) <em>Temas actuales en Gramática</em> (junto con Mabel Giammatteo y Augusto Trombetta), virtual (24 hs).</span>
+      <span class="news-text"><em>Gramática</em>, carrera de Letras, programa UBA XXII, Centro Universitario Devoto.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2022</span>
-      <span class="news-text">Curso de Extensión (SEUBE) <em>Introducción a la elaboración de textos en LaTeX para humanidades</em>, virtual (12 hs).</span>
+      <span class="news-text"><em>Introducción a la elaboración de textos en LaTeX para humanidades</em>, Curso de Extensión (SEUBE) virtual.</span>
     </div>
     <div class="news-item">
       <span class="news-date">2016</span>

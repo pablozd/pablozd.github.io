@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-{% assign tabs = "actuales|Cargos actuales,grado|Cursos de grado,posgrado|Cursos de posgrado,terciario|Terciario,extension|Extensión,ia|Cursos de IA" | split: "," %}
+{% assign tabs = "actuales|Cargos actuales,grado|Cursos de grado,posgrado|Cursos de posgrado,terciario|Terciario,extension|Extensión,ia|Cursos de IA,materiales|Materiales" | split: "," %}
 {% include tabs_nav.liquid tabs=tabs %}
 
 <div class="tab-pane active" id="tab-actuales">
@@ -175,4 +175,7 @@ nav_order: 4
 
 <div class="tab-pane" id="tab-ia">
   {% include cursos.liquid %}
+</div>
+
+<div class="tab-pane" id="tab-materiales">
 </div>

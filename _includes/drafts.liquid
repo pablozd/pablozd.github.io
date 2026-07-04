@@ -17,7 +17,7 @@
               <text x="26" y="58" text-anchor="middle" font-size="6" fill="#828282" font-family="Georgia,serif" font-style="italic">{{ draft.tag[site.active_lang] }}</text>
             </svg>
           </div>
-          <div id="draft-{{ forloop.index }}">
+          <div id="draft-{{ forloop.index }}" class="col-sm-8">
             <div class="author">{{ draft.authors }}</div>
             <div class="title">{{ draft.title }}</div>
             <div class="periodical">{{ draft.status[site.active_lang] }}</div>

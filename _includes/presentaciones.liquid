@@ -1,4 +1,4 @@
-{% assign pres_sections = 'conferencias,ponencias,colaboracion,posters' | split: ',' %}
+{% assign pres_sections = 'conferencias,ponencias,posters' | split: ',' %}
 {% for section_key in pres_sections %}
   <div class="tools-subtitle">{{ site.data[site.active_lang].strings.presentaciones[section_key] }}</div>
   <div class="news-list">

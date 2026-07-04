@@ -84,6 +84,8 @@ footer:
   last_updated: "Last updated:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Site by <a href="https://pablozd.ar" target="_blank">pablozd.ar</a> · Buenos Aires.
+  Based on <a href="https://github.com/george-gca/multi-language-al-folio" target="_blank" rel="noopener noreferrer">multi-language-al-folio</a>,
+  fork of <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a>.
 latest_posts: latest posts
 months:
   long:

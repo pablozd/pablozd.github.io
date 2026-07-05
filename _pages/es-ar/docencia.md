@@ -180,6 +180,18 @@ nav_order: 4
 <div class="tab-pane" id="tab-materiales">
   <div class="news-list">
     <div class="news-item">
+      <span class="news-date">2023</span>
+      <div class="pres-body">
+        <div class="pres-content">
+          <span class="news-text"><em>Gramática Generativa</em>. Trayecto de Formación Gramatical, Facultad de Lenguas, Universidad Nacional de Córdoba.</span>
+          <div class="links" style="margin-top:6px;">
+            <a href="https://github.com/pablozd/gg-unc/blob/main/gg-unc-00-Programa.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Programa</a>
+            <a href="https://github.com/pablozd/gg-unc" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Repositorio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news-item">
       <span class="news-date">2022</span>
       <div class="pres-body">
         <div class="pres-content">

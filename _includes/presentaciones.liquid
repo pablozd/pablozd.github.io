@@ -5,7 +5,7 @@
     {% for item in site.data.presentaciones[section_key] %}
       <div class="news-item">
         <span class="news-date">{{ item.date }}</span>
-        {% if item.slides or item.preview %}
+        {% if item.slides or item.poster or item.preview %}
           <div class="pres-body">
             <div class="pres-thumb-col">
               {% if item.preview %}
@@ -67,6 +67,16 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     >Slides</a
+                  >
+                {% endif %}
+                {% if item.poster %}
+                  <a
+                    href="{{ item.poster | prepend: '/assets/pdf/' | relative_url }}"
+                    class="btn btn-sm z-depth-0 slides-btn"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Poster</a
                   >
                 {% endif %}
                 {% if item.bibtex %}

@@ -72,8 +72,15 @@ td.department {
   font-size: 0.8rem;
 }
 
-ul.items li::marker {
-  color: var(--global-theme-color);
+ul.items {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.3rem;
+  }
 }
 
 div.container-links {

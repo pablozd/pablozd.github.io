@@ -19,8 +19,6 @@
       <div class="tool-actions">
         {% if curso.materials %}
           <a href="{{ curso.materials }}" class="btn btn-primary" target="_blank">{{ site.data[site.active_lang].strings.cursos.materials }}</a>
-        {% else %}
-          <span class="btn btn-outline disabled">{{ site.data[site.active_lang].strings.cursos.materials_soon }}</span>
         {% endif %}
       </div>
     </div>

@@ -68,7 +68,7 @@
             <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
           {% endif %}
           {% if content.description %}
-            <ul class="items">
+            <ul class="items ml-1 ml-md-4">
               {% for item in content.description %}
                 <li>
                   <i class="fa-regular fa-circle-dot icondepartment"></i>
@@ -89,7 +89,7 @@
             </ul>
           {% endif %}
           {% if content.items %}
-            <ul class="items">
+            <ul class="items ml-1 ml-md-4">
               {% for item in content.items %}
                 <li>
                   {% if item.contents %}

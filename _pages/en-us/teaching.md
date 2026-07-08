@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-{% assign tabs = "current|Current positions,undergrad|Undergraduate courses,graduate|Graduate courses,tertiary|Tertiary level,extension|Extension courses,ai|AI courses" | split: "," %}
+{% assign tabs = "current|Current positions,undergrad|Undergraduate courses,graduate|Graduate courses,tertiary|Tertiary level,extension|Extension courses,ai|AI courses,materials|Materials" | split: "," %}
 {% include tabs_nav.liquid tabs=tabs %}
 
 <div class="tab-pane active" id="tab-current">
@@ -165,4 +165,46 @@ nav_order: 4
 
 <div class="tab-pane" id="tab-ai">
   {% include cursos.liquid %}
+</div>
+
+<div class="tab-pane" id="tab-materials">
+  <div class="news-list">
+    <div class="news-item">
+      <span class="news-date">2026</span>
+      <div class="pres-body">
+        <div class="pres-content">
+          <span class="news-text"><em>Spanish Grammar</em>. Departamento de Letras, Facultad de Filosofía, Historia, Letras y Estudios Orientales, Universidad del Salvador. Unit 2: Phonetics and phonology of Spanish.</span>
+          <div class="links" style="margin-top:6px;">
+            <a href="/assets/pdf/es-ar/Zdrojewski-CV-2026.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Syllabus</a>
+            <a href="https://github.com/pablozd/fono-pdfs" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2023</span>
+      <div class="pres-body">
+        <div class="pres-content">
+          <span class="news-text"><em>Generative Grammar</em>. Trayecto de Formación Gramatical, Facultad de Lenguas, Universidad Nacional de Córdoba.</span>
+          <div class="links" style="margin-top:6px;">
+            <a href="https://github.com/pablozd/gg-unc/blob/main/gg-unc-00-Programa.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Syllabus</a>
+            <a href="https://github.com/pablozd/gg-unc" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news-item">
+      <span class="news-date">2022</span>
+      <div class="pres-body">
+        <div class="pres-content">
+          <span class="news-text">Undergraduate seminar <em>Gramáticas formales: formalismos e implementaciones</em>. Carrera de Letras, Facultad de Filosofía y Letras, Universidad de Buenos Aires, first semester 2022.</span>
+          <div class="links" style="margin-top:6px;">
+            <a href="https://letras.filo.uba.ar/sites/letras.filo.uba.ar/files/documentos/8.%20GRAM%C3%81TICAS%20FORMALES%20FORMALISMOS%20E%20IMPLEMENTACIONES%20CARRANZA%20ZDROJEWSKI.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Syllabus</a>
+            <a href="https://fernandocar86.github.io/seminario-gramaticas-formales/" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Materials</a>
+            <a href="https://github.com/fernandocar86/seminario-gramaticas-formales" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

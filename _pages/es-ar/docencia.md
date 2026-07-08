@@ -185,7 +185,7 @@ nav_order: 4
         <div class="pres-content">
           <span class="news-text"><em>Gramática española</em>. Departamento de Letras, Facultad de Filosofía, Historia, Letras y Estudios Orientales, Universidad del Salvador. Unidad 2: Fonética y fonología del español.</span>
           <div class="links" style="margin-top:6px;">
-            <a href="/assets/pdf/Zdrojewski-CV-2026.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Programa</a>
+            <a href="/assets/pdf/es-ar/Zdrojewski-CV-2026.pdf" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Programa</a>
             <a href="https://github.com/pablozd/fono-pdfs" class="btn btn-sm z-depth-0" target="_blank" rel="noopener noreferrer">Repositorio</a>
           </div>
         </div>
